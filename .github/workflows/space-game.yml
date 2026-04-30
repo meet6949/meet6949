@@ -1,4 +1,4 @@
-name: Generate Neural Network Animation
+name: Generate Commit Activity Graph
 
 on:
   schedule:
@@ -16,58 +16,33 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Generate Neural Network SVG
+      - name: Generate Commit Graph SVG
         run: |
           mkdir -p dist
-          cat > dist/neural-network.svg << 'EOF'
-          <svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
 
-            <style>
-              .bg { fill: #0F172A; }
-              .node { fill: #38BDF8; }
-              .line { stroke: #1E3A8A; stroke-width: 2; opacity: 0.4; }
-              .signal { fill: #22C55E; }
-              .text { fill: white; font-size: 14px; }
-            </style>
+          # Fake sample data (you can later replace with API)
+          VALUES=(5 8 3 10 6 12 4 9 7 11 2 6 8 5)
 
-            <rect width="100%" height="100%" class="bg"/>
+          echo '<svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">' > dist/commit-graph.svg
+          echo '<rect width="100%" height="100%" fill="#0F172A"/>' >> dist/commit-graph.svg
 
-            <!-- Connections -->
-            <line class="line" x1="150" y1="80" x2="450" y2="150"/>
-            <line class="line" x1="150" y1="200" x2="450" y2="150"/>
-            <line class="line" x1="450" y1="150" x2="750" y2="100"/>
-            <line class="line" x1="450" y1="150" x2="750" y2="220"/>
+          X=50
 
-            <!-- Nodes -->
-            <circle class="node" cx="150" cy="80" r="12"/>
-            <circle class="node" cx="150" cy="200" r="12"/>
-            <circle class="node" cx="450" cy="150" r="14"/>
-            <circle class="node" cx="750" cy="100" r="12"/>
-            <circle class="node" cx="750" cy="220" r="12"/>
+          for VALUE in "${VALUES[@]}"
+          do
+            HEIGHT=$((VALUE * 10))
+            Y=$((250 - HEIGHT))
 
-            <!-- Moving Signals -->
-            <circle class="signal" r="5">
-              <animateMotion dur="3s" repeatCount="indefinite">
-                <mpath href="#path1"/>
-              </animateMotion>
-            </circle>
+            echo "<rect x=\"$X\" y=\"250\" width=\"20\" height=\"0\" fill=\"#38BDF8\">" >> dist/commit-graph.svg
+            echo "<animate attributeName=\"height\" from=\"0\" to=\"$HEIGHT\" dur=\"1s\" fill=\"freeze\" />" >> dist/commit-graph.svg
+            echo "<animate attributeName=\"y\" from=\"250\" to=\"$Y\" dur=\"1s\" fill=\"freeze\" />" >> dist/commit-graph.svg
+            echo "</rect>" >> dist/commit-graph.svg
 
-            <circle class="signal" r="5">
-              <animateMotion dur="2.5s" repeatCount="indefinite">
-                <mpath href="#path2"/>
-              </animateMotion>
-            </circle>
+            X=$((X + 40))
+          done
 
-            <!-- Hidden Paths -->
-            <path id="path1" d="M150 80 Q300 120 450 150 T750 100" fill="none"/>
-            <path id="path2" d="M150 200 Q300 180 450 150 T750 220" fill="none"/>
-
-            <text x="20" y="280" class="text">
-              🧠 Training models... turning data into intelligence
-            </text>
-
-          </svg>
-          EOF
+          echo '<text x="20" y="280" fill="white">📊 Commit activity loading...</text>' >> dist/commit-graph.svg
+          echo '</svg>' >> dist/commit-graph.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
