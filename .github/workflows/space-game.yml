@@ -51,7 +51,130 @@
 #           build_dir: dist
 #         env:
 #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-name: Generate GitHub Heatmap
+
+
+
+
+
+
+
+
+
+
+
+
+# name: Generate GitHub Heatmap
+
+# on:
+#   schedule:
+#     - cron: "0 */12 * * *"
+#   workflow_dispatch:
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     permissions:
+#       contents: write
+
+#     steps:
+#       - uses: actions/checkout@v3
+
+#       - name: Fetch commit data
+#         run: |
+#           curl -s https://api.github.com/users/meet6949/events > events.json
+#           echo "API RESPONSE:"
+#           cat events.json
+
+#       - name: Generate SVG safely
+#         run: |
+#           python3 << 'EOF'
+#           import json
+
+#           try:
+#               with open("events.json") as f:
+#                   data = json.load(f)
+#           except:
+#               data = []
+
+#           counts = []
+
+#           # Safe parsing
+#           for event in data:
+#               if isinstance(event, dict) and event.get("type") == "PushEvent":
+#                   commits = event.get("payload", {}).get("commits", [])
+#                   counts.append(len(commits))
+
+#           # Ensure minimum data
+#           if not counts:
+#               counts = [0]*30
+#           elif len(counts) < 30:
+#               counts += [0]*(30 - len(counts))
+
+#           svg = []
+#           svg.append('<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">')
+#           svg.append('<rect width="100%" height="100%" fill="#0F172A"/>')
+
+#           size = 12
+#           gap = 4
+
+#           for i, val in enumerate(counts[:30]):
+#               x = 20 + (i * (size + gap))
+#               y = 150 - val * 10
+
+#               if val == 0:
+#                   color = "#1E293B"
+#               elif val < 3:
+#                   color = "#0EA5E9"
+#               elif val < 6:
+#                   color = "#22C55E"
+#               else:
+#                   color = "#EAB308"
+
+#               svg.append(f'<rect x="{x}" y="150" width="{size}" height="0" fill="{color}">')
+#               svg.append(f'<animate attributeName="height" from="0" to="{val*10}" dur="0.5s" fill="freeze"/>')
+#               svg.append(f'<animate attributeName="y" from="150" to="{y}" dur="0.5s" fill="freeze"/>')
+#               svg.append('</rect>')
+
+#           svg.append('<text x="20" y="180" fill="white">📊 Real commit activity (meet6949)</text>')
+#           svg.append('</svg>')
+
+#           with open("heatmap.svg", "w") as f:
+#               f.write("\n".join(svg))
+
+#           print("SVG GENERATED SUCCESSFULLY")
+#           EOF
+
+#       - name: Prepare output
+#         run: |
+#           mkdir -p dist
+#           mv heatmap.svg dist/heatmap.svg
+
+#       - name: Push to output branch
+#         uses: crazy-max/ghaction-github-pages@v3
+#         with:
+#           target_branch: output
+#           build_dir: dist
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+name: Generate Boat Wave Animation
 
 on:
   schedule:
@@ -68,75 +191,73 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch commit data
-        run: |
-          curl -s https://api.github.com/users/meet6949/events > events.json
-          echo "API RESPONSE:"
-          cat events.json
-
-      - name: Generate SVG safely
-        run: |
-          python3 << 'EOF'
-          import json
-
-          try:
-              with open("events.json") as f:
-                  data = json.load(f)
-          except:
-              data = []
-
-          counts = []
-
-          # Safe parsing
-          for event in data:
-              if isinstance(event, dict) and event.get("type") == "PushEvent":
-                  commits = event.get("payload", {}).get("commits", [])
-                  counts.append(len(commits))
-
-          # Ensure minimum data
-          if not counts:
-              counts = [0]*30
-          elif len(counts) < 30:
-              counts += [0]*(30 - len(counts))
-
-          svg = []
-          svg.append('<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">')
-          svg.append('<rect width="100%" height="100%" fill="#0F172A"/>')
-
-          size = 12
-          gap = 4
-
-          for i, val in enumerate(counts[:30]):
-              x = 20 + (i * (size + gap))
-              y = 150 - val * 10
-
-              if val == 0:
-                  color = "#1E293B"
-              elif val < 3:
-                  color = "#0EA5E9"
-              elif val < 6:
-                  color = "#22C55E"
-              else:
-                  color = "#EAB308"
-
-              svg.append(f'<rect x="{x}" y="150" width="{size}" height="0" fill="{color}">')
-              svg.append(f'<animate attributeName="height" from="0" to="{val*10}" dur="0.5s" fill="freeze"/>')
-              svg.append(f'<animate attributeName="y" from="150" to="{y}" dur="0.5s" fill="freeze"/>')
-              svg.append('</rect>')
-
-          svg.append('<text x="20" y="180" fill="white">📊 Real commit activity (meet6949)</text>')
-          svg.append('</svg>')
-
-          with open("heatmap.svg", "w") as f:
-              f.write("\n".join(svg))
-
-          print("SVG GENERATED SUCCESSFULLY")
-          EOF
-
-      - name: Prepare output
+      - name: Generate SVG
         run: |
           mkdir -p dist
-          mv heatmap.svg dist/heatmap.svg
+          cat > dist/boat-wave.svg << 'EOF'
+          <svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+
+            <style>
+              .bg { fill: #0F172A; }
+              .wave { fill: none; stroke: #38BDF8; stroke-width: 2; }
+              .boat { fill: #F59E0B; }
+            </style>
+
+            <rect width="100%" height="100%" class="bg"/>
+
+            <!-- Waves -->
+            <path class="wave" d="M0 200 Q100 180 200 200 T400 200 T600 200 T800 200 T1000 200">
+              <animateTransform 
+                attributeName="transform"
+                type="translate"
+                values="0 0; -200 0"
+                dur="4s"
+                repeatCount="indefinite"/>
+            </path>
+
+            <path class="wave" d="M0 220 Q100 200 200 220 T400 220 T600 220 T800 220 T1000 220">
+              <animateTransform 
+                attributeName="transform"
+                type="translate"
+                values="0 0; -200 0"
+                dur="6s"
+                repeatCount="indefinite"/>
+            </path>
+
+            <!-- Boat -->
+            <g>
+              <!-- Body -->
+              <polygon class="boat" points="420,180 480,180 460,200 440,200"/>
+
+              <!-- Mast -->
+              <line x1="450" y1="180" x2="450" y2="140" stroke="white" stroke-width="2"/>
+
+              <!-- Sail -->
+              <polygon points="450,140 450,180 480,160" fill="white"/>
+
+              <!-- Floating animation -->
+              <animateTransform 
+                attributeName="transform"
+                type="translate"
+                values="-100 0; 100 0; -100 0"
+                dur="6s"
+                repeatCount="indefinite"/>
+              
+              <animateTransform 
+                attributeName="transform"
+                type="translate"
+                values="0 0; 0 -10; 0 0"
+                dur="3s"
+                additive="sum"
+                repeatCount="indefinite"/>
+            </g>
+
+            <text x="20" y="280" fill="white">
+              🌊 Sailing through commits
+            </text>
+
+          </svg>
+          EOF
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
