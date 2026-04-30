@@ -1,16 +1,13 @@
-## Hi there 👋
+# 🎮 Commit Runner
 
-<!--
-**meet6949/meet6949** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my interactive GitHub profile.
 
-Here are some ideas to get you started:
+## 🕹️ Live Game
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![Game](./game.svg)
+
+---
+
+## 📊 My Activity Graph
+
+![Graph](https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=react-dark)
