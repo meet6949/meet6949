@@ -1,8 +1,6 @@
 name: Move Player
 
 on:
-  schedule:
-    - cron: "0 */6 * * *"   # runs every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -12,19 +10,17 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Move Dot
-        run: |
-          POS=$((RANDOM % 400 + 50))
+      - run: |
+          POS=$(( (RANDOM % 400) + 50 ))
           echo "<svg width='500' height='100' xmlns='http://www.w3.org/2000/svg'>
           <rect width='500' height='100' fill='#0d1117'/>
           <line x1='10' y1='50' x2='490' y2='50' stroke='white' stroke-width='2'/>
           <circle cx='$POS' cy='50' r='8' fill='lime'/>
           </svg>" > game.svg
 
-      - name: Commit Changes
-        run: |
+      - run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add game.svg
-          git commit -m "move player" || echo "no changes"
+          git commit -m "move player" || echo "no change"
           git push
