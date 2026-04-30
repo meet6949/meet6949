@@ -110,15 +110,10 @@ class Meet:
 
 ## 📊 Contribution Activity Timeline
 
-<!-- <p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/commit-graph.svg" />
-</p> -->
-
-## 🌊 Floating Dev Journey
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/boat-wave.svg" />
-</p>
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/commit-graph.svg" />
+</p> 
+
 
 ---
 
