@@ -163,6 +163,8 @@
 
 
 
+
+
 name: Boat Animation
 
 on:
@@ -178,60 +180,44 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4   # UPDATED
 
-      - name: Generate Boat SVG
+      - name: Generate SVG
         run: |
           mkdir -p dist
           cat > dist/boat.svg << 'EOF'
           <svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
-
             <rect width="100%" height="100%" fill="#0F172A"/>
 
-            <!-- Waves -->
             <path d="M0 180 Q100 160 200 180 T400 180 T600 180 T800 180" stroke="#38BDF8" fill="none">
               <animateTransform attributeName="transform" type="translate"
                 values="0 0; -200 0" dur="4s" repeatCount="indefinite"/>
             </path>
 
-            <path d="M0 200 Q100 180 200 200 T400 200 T600 200 T800 200" stroke="#1E3A8A" fill="none">
-              <animateTransform attributeName="transform" type="translate"
-                values="0 0; -200 0" dur="6s" repeatCount="indefinite"/>
-            </path>
-
-            <!-- Boat -->
             <g>
               <polygon points="350,170 420,170 400,190 370,190" fill="#F59E0B"/>
               <line x1="385" y1="170" x2="385" y2="130" stroke="white"/>
               <polygon points="385,130 385,170 420,150" fill="white"/>
 
-              <!-- Move left-right -->
               <animateTransform attributeName="transform" type="translate"
                 values="-80 0; 80 0; -80 0"
                 dur="6s" repeatCount="indefinite"/>
 
-              <!-- Float up-down -->
               <animateTransform attributeName="transform" type="translate"
                 values="0 0; 0 -10; 0 0"
                 dur="3s" additive="sum"
                 repeatCount="indefinite"/>
             </g>
-
-            <text x="20" y="230" fill="white">
-              🌊 Sailing through code
-            </text>
-
           </svg>
           EOF
 
-      - name: Push SVG
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4   # UPDATED ACTION
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
 
 
 
