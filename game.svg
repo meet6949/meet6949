@@ -1,17 +1,14 @@
-<!-- <svg width='600' height='120' xmlns='http://www.w3.org/2000/svg'>
-<rect width='600' height='120' fill='#0d1117'/>
+<svg width='600' height='140' xmlns='http://www.w3.org/2000/svg'>
+<rect width='600' height='140' fill='#0d1117'/>
 
-<text x='105' y='60' font-size='24'>🚀</text>
+<text x='80' y='70' font-size='24'>🚀</text>
 
-<text x='292' y='60' font-size='20'>☄️</text>
-<text x='251' y='60' font-size='20'>☄️</text>
+<text x='235' y='70' font-size='20'>☄️</text>
+<text x='469' y='70' font-size='20'>☄️</text>
 
-<text x='10' y='20' fill='white'>Status: Crash</text>
-<text x='450' y='20' fill='white'>❤️ Lives: 3</text>
+<text x='10' y='20' fill='white'>Status: Safe</text>
+<text x='450' y='20' fill='white'>❤️ Lives: 2</text>
 
-<text x='180' y='100' fill='cyan'>Survive the space!</text>
-</svg> -->
-<svg width="600" height="140" xmlns="http://www.w3.org/2000/svg">
-  <rect width="600" height="140" fill="#0d1117"/>
-  <text x="200" y="70" fill="white">Loading Space Game...</text>
+<text x='10' y='130' fill='cyan'>Frame: 2</text>
+<text x='200' y='130' fill='yellow'>Survive Space</text>
 </svg>
