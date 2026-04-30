@@ -1,1 +1,48 @@
+name: Space Game
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate Space Game
+        run: |
+          POS=$(( (RANDOM % 400) + 100 ))
+          STATUS=("Safe" "Danger" "Crash")
+          STATE=${STATUS[$RANDOM % 3]}
+          LIVES=$(( (RANDOM % 3) + 1 ))
+
+          echo "<svg width='600' height='120' xmlns='http://www.w3.org/2000/svg'>
+          <rect width='600' height='120' fill='#0d1117'/>
+
+          <text x='$POS' y='60' font-size='24'>🚀</text>
+
+          <text x='$((RANDOM % 500))' y='60' font-size='20'>☄️</text>
+          <text x='$((RANDOM % 500))' y='60' font-size='20'>☄️</text>
+
+          <text x='10' y='20' fill='white'>Status: $STATE</text>
+          <text x='450' y='20' fill='white'>❤️ Lives: $LIVES</text>
+
+          <text x='180' y='100' fill='cyan'>Survive the space!</text>
+          </svg>" > game.svg
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add game.svg
+          git commit -m "update space game" || echo "no changes"
+          git push
