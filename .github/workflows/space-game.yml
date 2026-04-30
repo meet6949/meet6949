@@ -181,7 +181,7 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate Contribution Snake Base
         uses: Platane/snk@v3
