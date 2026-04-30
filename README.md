@@ -4,8 +4,7 @@ Welcome to my interactive GitHub profile.
 
 ## 🕹️ Live Game
 
-![Game](./game.svg)
-
+![Game](./game.svg?timestamp=<!-- -->)
 ---
 
 ## 📊 My Activity Graph
