@@ -130,8 +130,7 @@ class Meet:
 </p> -->
 
 
-<img src="https://raw.githubusercontent.com/meet6949/meet6949/main/dist/game.gif">
----
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/main/dist/space.svg?v=1">---
 
 ## 🌐 Connect With Me
 
