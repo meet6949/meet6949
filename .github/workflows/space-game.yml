@@ -1,80 +1,74 @@
-name: Space Game
+name: Generate Space Contribution Game
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *"
-
-permissions:
-  contents: write
-
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Generate Game
+      - name: Generate Space Game SVG
         run: |
-          # Load previous position
-          if [ -f pos.txt ]; then
-            POS=$(cat pos.txt)
-          else
-            POS=50
-          fi
+          mkdir -p dist
+          cat > dist/space-game.svg << 'EOF'
+          <svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
 
-          # Move forward
-          POS=$((POS + 30))
+            <style>
+              .ship { fill: #38BDF8; }
+              .enemy { fill: #7C3AED; }
+              .bullet { fill: #22C55E; }
+              .text { fill: white; font-size: 14px; }
+              .bg { fill: #0F172A; }
+            </style>
 
-          # Reset if out of bounds
-          if [ $POS -gt 550 ]; then
-            POS=50
-          fi
+            <rect width="100%" height="100%" class="bg"/>
 
-          echo $POS > pos.txt
+            <!-- Player Ship -->
+            <polygon class="ship" points="390,170 410,170 400,150">
+              <animateTransform 
+                attributeName="transform"
+                type="translate"
+                values="-50 0; 50 0; -50 0"
+                dur="4s"
+                repeatCount="indefinite"/>
+            </polygon>
 
-          # Frame counter
-          if [ -f frame.txt ]; then
-            FRAME=$(cat frame.txt)
-          else
-            FRAME=1
-          fi
-          FRAME=$((FRAME + 1))
-          echo $FRAME > frame.txt
+            <!-- Enemies -->
+            <circle class="enemy" cx="100" cy="40" r="8">
+              <animate attributeName="cy" values="40;140;40" dur="6s" repeatCount="indefinite"/>
+            </circle>
 
-          # Random elements
-          AST1=$(( RANDOM % 550 ))
-          AST2=$(( RANDOM % 550 ))
+            <circle class="enemy" cx="300" cy="60" r="8">
+              <animate attributeName="cy" values="60;140;60" dur="5s" repeatCount="indefinite"/>
+            </circle>
 
-          STATES=("Safe" "Danger" "Crash")
-          STATE=${STATES[$RANDOM % 3]}
+            <circle class="enemy" cx="600" cy="50" r="8">
+              <animate attributeName="cy" values="50;140;50" dur="7s" repeatCount="indefinite"/>
+            </circle>
 
-          LIVES=$(( (RANDOM % 3) + 1 ))
+            <!-- Bullets -->
+            <rect class="bullet" x="398" y="140" width="4" height="10">
+              <animate attributeName="y" values="140;20" dur="1s" repeatCount="indefinite"/>
+            </rect>
 
-          # Generate SVG
-          echo "<svg width='600' height='140' xmlns='http://www.w3.org/2000/svg'>
-          <rect width='600' height='140' fill='#0d1117'/>
+            <text x="10" y="190" class="text">🚀 Defending commits like a boss</text>
 
-          <text x='$POS' y='70' font-size='24'>🚀</text>
+          </svg>
+          EOF
 
-          <text x='$AST1' y='70' font-size='20'>☄️</text>
-          <text x='$AST2' y='70' font-size='20'>☄️</text>
-
-          <text x='10' y='20' fill='white'>Status: $STATE</text>
-          <text x='450' y='20' fill='white'>❤️ Lives: $LIVES</text>
-
-          <text x='10' y='130' fill='cyan'>Frame: $FRAME</text>
-          <text x='200' y='130' fill='yellow'>Survive Space</text>
-          </svg>" > game.svg
-
-      - name: Commit
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add game.svg pos.txt frame.txt
-          git commit -m "update space game" || echo "no changes"
-          git push
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
