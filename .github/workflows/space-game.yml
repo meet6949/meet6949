@@ -51,7 +51,7 @@
 #           build_dir: dist
 #         env:
 #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-name: Generate Heatmap with Streak
+name: Generate GitHub Heatmap
 
 on:
   schedule:
@@ -68,84 +68,64 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Install jq
-        run: sudo apt-get install jq
-
-      - name: Fetch GitHub Contributions
+      - name: Fetch commit data (REST API)
         run: |
-          curl -X POST https://api.github.com/graphql \
-          -H "Authorization: bearer ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Content-Type: application/json" \
-          -d '{
-            "query": "{
-              user(login: \"meet6949\") {
-                contributionsCollection {
-                  contributionCalendar {
-                    weeks {
-                      contributionDays {
-                        contributionCount
-                      }
-                    }
-                  }
-                }
-              }
-            }"
-          }' > data.json
+          curl -s https://api.github.com/users/meet6949/events > events.json
 
-      - name: Generate Heatmap SVG
+      - name: Generate SVG (Python)
+        run: |
+          python3 << 'EOF'
+          import json
+
+          with open("events.json") as f:
+              data = json.load(f)
+
+          # Extract push events only
+          counts = []
+          for event in data:
+              if event["type"] == "PushEvent":
+                  counts.append(len(event["payload"]["commits"]))
+
+          # Fill if less data
+          if len(counts) < 30:
+              counts += [0] * (30 - len(counts))
+
+          svg = []
+          svg.append('<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">')
+          svg.append('<rect width="100%" height="100%" fill="#0F172A"/>')
+
+          size = 12
+          gap = 4
+
+          for i, val in enumerate(counts[:30]):
+              x = 20 + (i * (size + gap))
+              y = 150 - val * 10
+
+              if val == 0:
+                  color = "#1E293B"
+              elif val < 3:
+                  color = "#0EA5E9"
+              elif val < 6:
+                  color = "#22C55E"
+              else:
+                  color = "#EAB308"
+
+              svg.append(f'<rect x="{x}" y="150" width="{size}" height="0" fill="{color}">')
+              svg.append(f'<animate attributeName="height" from="0" to="{val*10}" dur="0.5s" fill="freeze"/>')
+              svg.append(f'<animate attributeName="y" from="150" to="{y}" dur="0.5s" fill="freeze"/>')
+              svg.append('</rect>')
+
+          svg.append('<text x="20" y="180" fill="white">📊 Real commit activity (meet6949)</text>')
+          svg.append('</svg>')
+
+          with open("heatmap.svg", "w") as f:
+              f.write("\n".join(svg))
+          EOF
+
+      - name: Prepare output folder
         run: |
           mkdir -p dist
-
-          echo '<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">' > dist/heatmap.svg
-          echo '<rect width="100%" height="100%" fill="#0F172A"/>' >> dist/heatmap.svg
-
-          SIZE=10
-          GAP=3
-          X=20
-
-          VALUES=$(cat data.json | jq -r '.data.user.contributionsCollection.contributionCalendar.weeks[].contributionDays[].contributionCount')
-
-          i=0
-          STREAK=0
-          MAX_STREAK=0
-
-          for VALUE in $VALUES
-          do
-            ROW=$((i % 7))
-            COL=$((i / 7))
-
-            XPOS=$((20 + COL * (SIZE + GAP)))
-            YPOS=$((20 + ROW * (SIZE + GAP)))
-
-            # Color logic
-            if [ "$VALUE" -eq 0 ]; then COLOR="#1E293B"
-            elif [ "$VALUE" -lt 3 ]; then COLOR="#0EA5E9"
-            elif [ "$VALUE" -lt 6 ]; then COLOR="#22C55E"
-            elif [ "$VALUE" -lt 10 ]; then COLOR="#84CC16"
-            else COLOR="#EAB308"
-            fi
-
-            echo "<rect x=\"$XPOS\" y=\"$YPOS\" width=\"$SIZE\" height=\"$SIZE\" fill=\"$COLOR\">" >> dist/heatmap.svg
-            echo "<animate attributeName=\"opacity\" from=\"0\" to=\"1\" dur=\"0.3s\" begin=\"${i}ms\" fill=\"freeze\" />" >> dist/heatmap.svg
-            echo "</rect>" >> dist/heatmap.svg
-
-            # Streak logic
-            if [ "$VALUE" -gt 0 ]; then
-              STREAK=$((STREAK + 1))
-              if [ "$STREAK" -gt "$MAX_STREAK" ]; then
-                MAX_STREAK=$STREAK
-              fi
-            else
-              STREAK=0
-            fi
-
-            i=$((i + 1))
-          done
-
-          echo "<text x=\"20\" y=\"140\" fill=\"white\">🔥 Max Streak: $MAX_STREAK days</text>" >> dist/heatmap.svg
-          echo "<text x=\"20\" y=\"170\" fill=\"white\">⚡ Auto-updated from real commits</text>" >> dist/heatmap.svg
-
-          echo '</svg>' >> dist/heatmap.svg
+          mv heatmap.svg dist/heatmap.svg
 
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
