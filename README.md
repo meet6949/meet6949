@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:7C3AED&height=220&section=header&text=Herit%20Tanna&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Builder&descAlignY=55"/>
 
-# Hi 👋, I'm Herit
+# Hi 👋, I'm Meet
 
 ### Data Science Enthusiast • ML Explorer • Builder
 
@@ -19,7 +19,7 @@
 ## 🚀 About Me
 
 ```python
-class Herit:
+class Meet:
     def __init__(self):
         self.role = "Aspiring Data Scientist"
         self.location = "India"
@@ -70,65 +70,19 @@ class Herit:
 ![Excel](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git)
 ![VS Code](https://img.shields.io/badge/VSCode-111827?style=for-the-badge&logo=visualstudiocode)
 
----
-
-## 📌 Featured Projects
-
-<table>
-<tr>
-<td width="50%">
-
-### 💱 INR Currency Dashboard
-Data analysis project focused on INR trends, currency insights, and dashboard storytelling.
-
-🔗 <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard">View Project</a>
-
-</td>
-
-<td width="50%">
-
-### 🛒 Retail Store Sales Analysis
-Sales dashboard analyzing store performance, revenue trends, and product insights.
-
-🔗 <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis">View Project</a>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%">
-
-### 💳 UPI Analysis
-UPI transaction insights and financial analytics dashboard project.
-
-🔗 <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/UPI%20Analysis">View Project</a>
-
-</td>
-
-<td width="50%">
-
-### 📊 Data Analytics Portfolio
-Collection of analytics projects built using Power BI, Excel, SQL, and Python.
-
-🔗 <a href="https://github.com/herit007/Data-Analytics-Portfolio">View Repository</a>
-
-</td>
-</tr>
-</table>
----
 
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=meet60497&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=herit007&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=herit007&layout=compact&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
@@ -162,16 +116,12 @@ Collection of analytics projects built using Power BI, Excel, SQL, and Python.
 ## 🌐 Connect With Me
 
 <p align="center">
-<a href="https://www.linkedin.com/in/tanna-herit-38b679387/">
+<a href="[https://www.linkedin.com/in/tanna-herit-38b679387](https://www.linkedin.com/in/meet-patel-3b3b64401/)">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
-<a href="mailto:gwability@gmail.com">
+<a href="mailto:meet70849@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
-</a>
-
-<a href="https://portfolio-website-m33mwyxspkv9tsfattzjet.streamlit.app/">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel"/>
 </a>
 </p>
 
