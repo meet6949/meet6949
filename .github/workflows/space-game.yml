@@ -68,27 +68,36 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Fetch commit data (REST API)
+      - name: Fetch commit data
         run: |
           curl -s https://api.github.com/users/meet6949/events > events.json
+          echo "API RESPONSE:"
+          cat events.json
 
-      - name: Generate SVG (Python)
+      - name: Generate SVG safely
         run: |
           python3 << 'EOF'
           import json
 
-          with open("events.json") as f:
-              data = json.load(f)
+          try:
+              with open("events.json") as f:
+                  data = json.load(f)
+          except:
+              data = []
 
-          # Extract push events only
           counts = []
-          for event in data:
-              if event["type"] == "PushEvent":
-                  counts.append(len(event["payload"]["commits"]))
 
-          # Fill if less data
-          if len(counts) < 30:
-              counts += [0] * (30 - len(counts))
+          # Safe parsing
+          for event in data:
+              if isinstance(event, dict) and event.get("type") == "PushEvent":
+                  commits = event.get("payload", {}).get("commits", [])
+                  counts.append(len(commits))
+
+          # Ensure minimum data
+          if not counts:
+              counts = [0]*30
+          elif len(counts) < 30:
+              counts += [0]*(30 - len(counts))
 
           svg = []
           svg.append('<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">')
@@ -120,9 +129,11 @@ jobs:
 
           with open("heatmap.svg", "w") as f:
               f.write("\n".join(svg))
+
+          print("SVG GENERATED SUCCESSFULLY")
           EOF
 
-      - name: Prepare output folder
+      - name: Prepare output
         run: |
           mkdir -p dist
           mv heatmap.svg dist/heatmap.svg
