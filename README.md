@@ -74,7 +74,7 @@ class Meet:
 ## 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=meet60497&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true"/>
 </p>
 
 <p align="center">
