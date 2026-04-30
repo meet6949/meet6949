@@ -11,6 +11,9 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+cool+projects+with+data+and+code;Machine+Learning+%7C+EDA+%7C+Dashboards;Always+learning+something+new" />
   </a>
 </p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/heatmap.svg" />
+</p>
 
 </div>
 
