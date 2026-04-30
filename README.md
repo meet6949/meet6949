@@ -116,7 +116,7 @@ class Meet:
 ## 🌐 Connect With Me
 
 <p align="center">
-<a href="[https://www.linkedin.com/in/tanna-herit-38b679387](https://www.linkedin.com/in/meet-patel-3b3b64401/)">
+<a href="https://www.linkedin.com/in/meet-patel-3b3b64401/?skipRedirect=true">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
 </a>
 
