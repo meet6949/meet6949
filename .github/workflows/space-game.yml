@@ -265,41 +265,45 @@
 
 
 
-name: Generate Space Game
+name: Space Contribution Generator
 
 on:
-  schedule:
-    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Show files (DEBUG)
+        run: ls -R
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.x"
-          
+          python-version: "3.11"
 
       - name: Install deps
         run: pip install requests
 
-      - name: Run script
-        run: python generate_svg.pyx`x
+      - name: Run script (DEBUG)
+        run: |
+          python scripts/generate_svg.py || echo "SCRIPT FAILED"
 
-      - name: Push
+      - name: Check output (DEBUG)
+        run: ls dist || echo "NO DIST FOLDER"
+
+      - name: Commit
         run: |
           git config user.name "meet6949"
           git config user.email "meet6949@users.noreply.github.com"
-          git add output/game.svg
-          git commit -m "update svg" || echo "no changes"
+          git add .
+          git commit -m "update" || echo "no changes"
           git push
