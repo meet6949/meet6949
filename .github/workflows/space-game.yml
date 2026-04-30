@@ -167,7 +167,6 @@
 
 
 
-
 name: Space Game Animation
 
 on:
@@ -183,14 +182,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Generate Contribution Snake Base
+      - name: Generate base contribution graph
         uses: Platane/snk@v3
         with:
           github_user_name: meet6949
           outputs: |
             output/base.svg
 
-      - name: Add Spaceship + Effects
+      - name: Create final game.svg
         run: |
           mkdir -p output
 
@@ -200,13 +199,19 @@ jobs:
           <!-- Background -->
           <rect width="100%" height="100%" fill="#0d1117"/>
 
-          <!-- Import Contributions -->
-          <image href="./base.svg" x="0" y="0" width="900" height="200"/>
+          <!-- Contribution Graph -->
+          <image href="base.svg" x="0" y="0" width="900" height="200"/>
+
+          <!-- Stars -->
+          <circle cx="100" cy="30" r="1" fill="white"/>
+          <circle cx="300" cy="50" r="1" fill="white"/>
+          <circle cx="700" cy="20" r="1" fill="white"/>
 
           <!-- Spaceship -->
           <g>
             <polygon points="0,10 20,0 40,10 20,20" fill="#00f5ff">
-              <animateTransform attributeName="transform"
+              <animateTransform 
+                attributeName="transform"
                 type="translate"
                 from="0 150"
                 to="750 150"
@@ -215,33 +220,27 @@ jobs:
             </polygon>
           </g>
 
-          <!-- Bullet -->
-          <line x1="750" y1="160" x2="850" y2="160" stroke="red" stroke-width="2">
-            <animate attributeName="x1" from="750" to="850" dur="0.5s" begin="6s" repeatCount="3"/>
-            <animate attributeName="x2" from="750" to="900" dur="0.5s" begin="6s" repeatCount="3"/>
-          </line>
+          <!-- Bullets -->
+          <g>
+            <line x1="750" y1="160" x2="850" y2="160" stroke="#ff3b3b" stroke-width="2">
+              <animate attributeName="x1" from="750" to="900" dur="0.4s" begin="6s" repeatCount="3"/>
+              <animate attributeName="x2" from="800" to="950" dur="0.4s" begin="6s" repeatCount="3"/>
+            </line>
+          </g>
 
-          <!-- Blast Effect -->
+          <!-- Blast -->
           <circle cx="850" cy="160" r="5" fill="orange">
-            <animate attributeName="r" from="5" to="25" dur="0.4s" begin="6.2s"/>
-            <animate attributeName="opacity" from="1" to="0" dur="0.4s" begin="6.2s"/>
+            <animate attributeName="r" from="5" to="30" dur="0.5s" begin="6.2s"/>
+            <animate attributeName="opacity" from="1" to="0" dur="0.5s" begin="6.2s"/>
           </circle>
 
           </svg>
           EOF
 
-      - name: Commit & Push
+      - name: Commit & push
         run: |
           git config user.name "meet6949"
           git config user.email "meet6949@users.noreply.github.com"
           git add output/game.svg
-          git commit -m "Update space game animation"
+          git commit -m "update game animation" || echo "no changes"
           git push
-
-
-
-
-
-
-
-
