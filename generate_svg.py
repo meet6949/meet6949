@@ -7,6 +7,7 @@ TOKEN = os.getenv("GITHUB_TOKEN")
 
 OUTPUT = "dist/space.svg"
 
+
 def fetch_data():
     query = """
     query($userName:String!) {
@@ -24,7 +25,11 @@ def fetch_data():
     }
     """
 
-    headers = {"Authorization": f"bearer {TOKEN}"}
+    headers = {}
+
+    # 🔥 SAFE TOKEN HANDLING
+    if TOKEN:
+        headers["Authorization"] = f"bearer {TOKEN}"
 
     res = requests.post(
         "https://api.github.com/graphql",
@@ -33,7 +38,10 @@ def fetch_data():
         timeout=10
     )
 
-    res.raise_for_status()
+    if res.status_code != 200:
+        print("API failed, using fallback data")
+        return [0] * 371  # fallback safe
+
     data = res.json()
 
     weeks = data["data"]["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]
@@ -59,21 +67,18 @@ def generate(days):
     cell, gap = 10, 3
 
     start_x, start_y = 50, 30
-
     rocket_x = 760
     rocket_y = 150
 
     svg = f'<svg width="{width}" height="{height}" xmlns="http://www.w3.org/2000/svg">'
 
-    # background
-    svg += f'<rect width="100%" height="100%" fill="#0d1117"/>'
+    svg += '<rect width="100%" height="100%" fill="#0d1117"/>'
 
     # stars
     random.seed(42)
     for _ in range(60):
         svg += f'<circle cx="{random.randint(0,width)}" cy="{random.randint(0,height)}" r="1" fill="white" opacity="0.5"/>'
 
-    # grid
     targets = []
     i = 0
 
@@ -92,42 +97,42 @@ def generate(days):
 
             i += 1
 
-    # rocket (clean design)
+    # rocket
     svg += f'''
     <g>
         <polygon points="{rocket_x},{rocket_y} {rocket_x+30},{rocket_y-10} {rocket_x+30},{rocket_y+10}" fill="#8b5cf6"/>
         <circle cx="{rocket_x+20}" cy="{rocket_y}" r="4" fill="#22c55e"/>
-        <ellipse cx="{rocket_x-8}" cy="{rocket_y}" rx="10" ry="4" fill="orange"/>
     </g>
     '''
 
-    # bullets (perfect sync)
-    base_delay = 1.5
-
+    # bullets
+    base = 1.5
     for i, (tx, ty) in enumerate(targets[-5:]):
         svg += f'''
         <circle cx="{rocket_x}" cy="{rocket_y}" r="3" fill="#facc15">
-            <animate attributeName="cx" from="{rocket_x}" to="{tx}" dur="0.5s" begin="{base_delay+i*0.4}s" fill="freeze"/>
-            <animate attributeName="cy" from="{rocket_y}" to="{ty}" dur="0.5s" begin="{base_delay+i*0.4}s" fill="freeze"/>
+            <animate attributeName="cx" from="{rocket_x}" to="{tx}" dur="0.5s" begin="{base+i*0.4}s"/>
+            <animate attributeName="cy" from="{rocket_y}" to="{ty}" dur="0.5s" begin="{base+i*0.4}s"/>
         </circle>
         '''
 
     svg += "</svg>"
-
     return svg
 
 
 def main():
-    data = fetch_data()
+    try:
+        data = fetch_data()
+        os.makedirs("dist", exist_ok=True)
 
-    os.makedirs("dist", exist_ok=True)
+        svg = generate(data)
 
-    svg = generate(data)
+        with open(OUTPUT, "w") as f:
+            f.write(svg)
 
-    with open(OUTPUT, "w") as f:
-        f.write(svg)
+        print("✅ SVG generated")
 
-    print("SVG generated")
+    except Exception as e:
+        print("❌ ERROR:", e)
 
 
 if __name__ == "__main__":
