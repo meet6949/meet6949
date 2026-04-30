@@ -18,31 +18,63 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Space Game
+      - name: Generate Game
         run: |
-          POS=$(( (RANDOM % 400) + 100 ))
-          STATUS=("Safe" "Danger" "Crash")
-          STATE=${STATUS[$RANDOM % 3]}
+          # Load previous position
+          if [ -f pos.txt ]; then
+            POS=$(cat pos.txt)
+          else
+            POS=50
+          fi
+
+          # Move forward
+          POS=$((POS + 30))
+
+          # Reset if out of bounds
+          if [ $POS -gt 550 ]; then
+            POS=50
+          fi
+
+          echo $POS > pos.txt
+
+          # Frame counter
+          if [ -f frame.txt ]; then
+            FRAME=$(cat frame.txt)
+          else
+            FRAME=1
+          fi
+          FRAME=$((FRAME + 1))
+          echo $FRAME > frame.txt
+
+          # Random elements
+          AST1=$(( RANDOM % 550 ))
+          AST2=$(( RANDOM % 550 ))
+
+          STATES=("Safe" "Danger" "Crash")
+          STATE=${STATES[$RANDOM % 3]}
+
           LIVES=$(( (RANDOM % 3) + 1 ))
 
-          echo "<svg width='600' height='120' xmlns='http://www.w3.org/2000/svg'>
-          <rect width='600' height='120' fill='#0d1117'/>
+          # Generate SVG
+          echo "<svg width='600' height='140' xmlns='http://www.w3.org/2000/svg'>
+          <rect width='600' height='140' fill='#0d1117'/>
 
-          <text x='$POS' y='60' font-size='24'>🚀</text>
+          <text x='$POS' y='70' font-size='24'>🚀</text>
 
-          <text x='$((RANDOM % 500))' y='60' font-size='20'>☄️</text>
-          <text x='$((RANDOM % 500))' y='60' font-size='20'>☄️</text>
+          <text x='$AST1' y='70' font-size='20'>☄️</text>
+          <text x='$AST2' y='70' font-size='20'>☄️</text>
 
           <text x='10' y='20' fill='white'>Status: $STATE</text>
           <text x='450' y='20' fill='white'>❤️ Lives: $LIVES</text>
 
-          <text x='180' y='100' fill='cyan'>Survive the space!</text>
+          <text x='10' y='130' fill='cyan'>Frame: $FRAME</text>
+          <text x='200' y='130' fill='yellow'>Survive Space</text>
           </svg>" > game.svg
 
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add game.svg
+          git add game.svg pos.txt frame.txt
           git commit -m "update space game" || echo "no changes"
           git push
