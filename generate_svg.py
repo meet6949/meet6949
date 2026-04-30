@@ -2,38 +2,39 @@ import requests
 
 username = "meet6949"
 
-# GitHub contribution SVG fetch
 url = f"https://github.com/users/{username}/contributions"
 
-res = requests.get(url)
+headers = {
+    "User-Agent": "Mozilla/5.0"
+}
+
+res = requests.get(url, headers=headers)
+
+if res.status_code != 200:
+    raise Exception("Failed to fetch contributions")
+
 svg_data = res.text
 
-# Modify SVG (left shift + scale)
-modified_svg = svg_data.replace(
-    '<svg',
-    '<svg transform="translate(20,20) scale(0.9)"'
-)
-
-# Add spaceship + bullets
+# Simple overlay (safe)
 animation = """
 <g>
-  <polygon points="0,10 40,0 80,10 40,20" fill="#8b5cf6">
-    <animateTransform attributeName="transform"
-      type="translate"
-      from="1000 140"
-      to="750 140"
-      dur="2s"
-      fill="freeze"/>
-  </polygon>
+  <circle cx="750" cy="150" r="3" fill="yellow">
+    <animate attributeName="cx" from="750" to="300" dur="0.5s" begin="2s"/>
+  </circle>
 </g>
-
-<circle cx="750" cy="150" r="3" fill="yellow">
-  <animate attributeName="cx" from="750" to="300" dur="0.5s" begin="2s"/>
-</circle>
 """
 
-final_svg = svg_data.replace("</svg>", animation + "</svg>")
+# inject animation safely
+if "</svg>" in svg_data:
+    final_svg = svg_data.replace("</svg>", animation + "</svg>")
+else:
+    raise Exception("Invalid SVG format")
 
-# Save
-with open("output/game.svg", "w") as f:
+# save
+import os
+os.makedirs("output", exist_ok=True)
+
+with open("output/game.svg", "w", encoding="utf-8") as f:
     f.write(final_svg)
+
+print("SVG generated successfully")
