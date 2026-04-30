@@ -63,7 +63,112 @@
 
 
 
-name: Generate GitHub Heatmap
+# name: Generate GitHub Heatmap
+
+# on:
+#   schedule:
+#     - cron: "0 */12 * * *"
+#   workflow_dispatch:
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     permissions:
+#       contents: write
+
+#     steps:
+#       - uses: actions/checkout@v3
+
+#       - name: Fetch commit data
+#         run: |
+#           curl -s https://api.github.com/users/meet6949/events > events.json
+#           echo "API RESPONSE:"
+#           cat events.json
+
+#       - name: Generate SVG safely
+#         run: |
+#           python3 << 'EOF'
+#           import json
+
+#           try:
+#               with open("events.json") as f:
+#                   data = json.load(f)
+#           except:
+#               data = []
+
+#           counts = []
+
+#           # Safe parsing
+#           for event in data:
+#               if isinstance(event, dict) and event.get("type") == "PushEvent":
+#                   commits = event.get("payload", {}).get("commits", [])
+#                   counts.append(len(commits))
+
+#           # Ensure minimum data
+#           if not counts:
+#               counts = [0]*30
+#           elif len(counts) < 30:
+#               counts += [0]*(30 - len(counts))
+
+#           svg = []
+#           svg.append('<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">')
+#           svg.append('<rect width="100%" height="100%" fill="#0F172A"/>')
+
+#           size = 12
+#           gap = 4
+
+#           for i, val in enumerate(counts[:30]):
+#               x = 20 + (i * (size + gap))
+#               y = 150 - val * 10
+
+#               if val == 0:
+#                   color = "#1E293B"
+#               elif val < 3:
+#                   color = "#0EA5E9"
+#               elif val < 6:
+#                   color = "#22C55E"
+#               else:
+#                   color = "#EAB308"
+
+#               svg.append(f'<rect x="{x}" y="150" width="{size}" height="0" fill="{color}">')
+#               svg.append(f'<animate attributeName="height" from="0" to="{val*10}" dur="0.5s" fill="freeze"/>')
+#               svg.append(f'<animate attributeName="y" from="150" to="{y}" dur="0.5s" fill="freeze"/>')
+#               svg.append('</rect>')
+
+#           svg.append('<text x="20" y="180" fill="white">📊 Real commit activity (meet6949)</text>')
+#           svg.append('</svg>')
+
+#           with open("heatmap.svg", "w") as f:
+#               f.write("\n".join(svg))
+
+#           print("SVG GENERATED SUCCESSFULLY")
+#           EOF
+
+#       - name: Prepare output
+#         run: |
+#           mkdir -p dist
+#           mv heatmap.svg dist/heatmap.svg
+
+#       - name: Push to output branch
+#         uses: crazy-max/ghaction-github-pages@v3
+#         with:
+#           target_branch: output
+#           build_dir: dist
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+
+
+
+
+
+
+name: Space Game Animation
 
 on:
   schedule:
@@ -74,89 +179,64 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-    permissions:
-      contents: write
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v3
 
-      - name: Fetch commit data
+      - name: Generate Contribution Snake Base
+        uses: Platane/snk@v3
+        with:
+          github_user_name: meet6949
+          outputs: |
+            output/base.svg
+
+      - name: Add Spaceship + Effects
         run: |
-          curl -s https://api.github.com/users/meet6949/events > events.json
-          echo "API RESPONSE:"
-          cat events.json
+          mkdir -p output
 
-      - name: Generate SVG safely
-        run: |
-          python3 << 'EOF'
-          import json
+          cat << 'EOF' > output/game.svg
+          <svg viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
 
-          try:
-              with open("events.json") as f:
-                  data = json.load(f)
-          except:
-              data = []
+          <!-- Background -->
+          <rect width="100%" height="100%" fill="#0d1117"/>
 
-          counts = []
+          <!-- Import Contributions -->
+          <image href="./base.svg" x="0" y="0" width="900" height="200"/>
 
-          # Safe parsing
-          for event in data:
-              if isinstance(event, dict) and event.get("type") == "PushEvent":
-                  commits = event.get("payload", {}).get("commits", [])
-                  counts.append(len(commits))
+          <!-- Spaceship -->
+          <g>
+            <polygon points="0,10 20,0 40,10 20,20" fill="#00f5ff">
+              <animateTransform attributeName="transform"
+                type="translate"
+                from="0 150"
+                to="750 150"
+                dur="6s"
+                fill="freeze"/>
+            </polygon>
+          </g>
 
-          # Ensure minimum data
-          if not counts:
-              counts = [0]*30
-          elif len(counts) < 30:
-              counts += [0]*(30 - len(counts))
+          <!-- Bullet -->
+          <line x1="750" y1="160" x2="850" y2="160" stroke="red" stroke-width="2">
+            <animate attributeName="x1" from="750" to="850" dur="0.5s" begin="6s" repeatCount="3"/>
+            <animate attributeName="x2" from="750" to="900" dur="0.5s" begin="6s" repeatCount="3"/>
+          </line>
 
-          svg = []
-          svg.append('<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">')
-          svg.append('<rect width="100%" height="100%" fill="#0F172A"/>')
+          <!-- Blast Effect -->
+          <circle cx="850" cy="160" r="5" fill="orange">
+            <animate attributeName="r" from="5" to="25" dur="0.4s" begin="6.2s"/>
+            <animate attributeName="opacity" from="1" to="0" dur="0.4s" begin="6.2s"/>
+          </circle>
 
-          size = 12
-          gap = 4
-
-          for i, val in enumerate(counts[:30]):
-              x = 20 + (i * (size + gap))
-              y = 150 - val * 10
-
-              if val == 0:
-                  color = "#1E293B"
-              elif val < 3:
-                  color = "#0EA5E9"
-              elif val < 6:
-                  color = "#22C55E"
-              else:
-                  color = "#EAB308"
-
-              svg.append(f'<rect x="{x}" y="150" width="{size}" height="0" fill="{color}">')
-              svg.append(f'<animate attributeName="height" from="0" to="{val*10}" dur="0.5s" fill="freeze"/>')
-              svg.append(f'<animate attributeName="y" from="150" to="{y}" dur="0.5s" fill="freeze"/>')
-              svg.append('</rect>')
-
-          svg.append('<text x="20" y="180" fill="white">📊 Real commit activity (meet6949)</text>')
-          svg.append('</svg>')
-
-          with open("heatmap.svg", "w") as f:
-              f.write("\n".join(svg))
-
-          print("SVG GENERATED SUCCESSFULLY")
+          </svg>
           EOF
 
-      - name: Prepare output
+      - name: Commit & Push
         run: |
-          mkdir -p dist
-          mv heatmap.svg dist/heatmap.svg
-
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config user.name "meet6949"
+          git config user.email "meet6949@users.noreply.github.com"
+          git add output/game.svg
+          git commit -m "Update space game animation"
+          git push
 
 
 
