@@ -114,6 +114,9 @@ class Meet:
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/commit-graph.svg" />
 </p> 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/ai-training.svg" />
+</p>
 
 ---
 
@@ -135,7 +138,6 @@ class Meet:
 
 > I enjoy transforming messy datasets into meaningful stories and real-world solutions.
 
-<!-- <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1E3A8A,100:0F172A&height=120&section=footer"/> -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1E3A8A,100:0F172A&height=120&section=footer"/>
 
 
-<img src="https://raw.githubusercontent.com/meet6949/meet6949/output/boat-wave.svg" />
