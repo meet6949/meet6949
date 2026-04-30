@@ -128,10 +128,10 @@ class Meet:
 
 ## 🌐 Connect With Me
 
-<!-- <p align="center">
+<p align="center">
 <a href="https://www.linkedin.com/in/meet-patel-3b3b64401/?skipRedirect=true">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a> -->
+</a>
 
 <a href="mailto:meet70849@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
