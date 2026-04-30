@@ -125,10 +125,12 @@ class Meet:
 </p> -->
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/game.svg">
-</p>
+</p> -->
 
+
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/main/dist/game.gif">
 ---
 
 ## 🌐 Connect With Me
