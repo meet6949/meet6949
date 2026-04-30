@@ -11,10 +11,14 @@
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+cool+projects+with+data+and+code;Machine+Learning+%7C+EDA+%7C+Dashboards;Always+learning+something+new" />
   </a>
 </p>
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/heatmap.svg" />
-</p>
+</p> -->
 
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/game.svg">
+</p>
 </div>
 
 ---
@@ -122,10 +126,10 @@ class Meet:
 
 ## 🌐 Connect With Me
 
-<p align="center">
+<!-- <p align="center">
 <a href="https://www.linkedin.com/in/meet-patel-3b3b64401/?skipRedirect=true">
 <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
+</a> -->
 
 <a href="mailto:meet70849@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
