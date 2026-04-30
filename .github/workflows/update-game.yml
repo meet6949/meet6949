@@ -8,9 +8,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - run: |
+      - name: Move Dot
+        run: |
           POS=$(( (RANDOM % 400) + 50 ))
           echo "<svg width='500' height='100' xmlns='http://www.w3.org/2000/svg'>
           <rect width='500' height='100' fill='#0d1117'/>
@@ -18,9 +19,10 @@ jobs:
           <circle cx='$POS' cy='50' r='8' fill='lime'/>
           </svg>" > game.svg
 
-      - run: |
+      - name: Commit Changes
+        run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add game.svg
-          git commit -m "move player" || echo "no change"
+          git commit -m "move player" || echo "no changes"
           git push
