@@ -105,10 +105,10 @@ class Meet:
 - NLP
 ---
 
-## 🚀 Contribution Space Game
+## 🧠 Neural Network Training Simulation
 
 <p align="center">
-  <img src="https://github.com/meet6949/meet6949/blob/output/space-game.svg" />
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/neural-network.svg" />
 </p>
 
 ---
