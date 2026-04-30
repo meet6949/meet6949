@@ -105,10 +105,10 @@ class Meet:
 - NLP
 ---
 
-## 🧠 Neural Network Training Simulation
+## 📊 Contribution Activity Timeline
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/neural-network.svg" />
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/commit-graph.svg" />
 </p>
 
 ---
