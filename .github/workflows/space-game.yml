@@ -163,23 +163,12 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-name: Generate Boat Wave Animation
+name: Boat Animation
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */12 * * *"
-  workflow_dispatch:
 
 jobs:
   build:
@@ -191,78 +180,67 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Generate SVG
+      - name: Generate Boat SVG
         run: |
           mkdir -p dist
-          cat > dist/boat-wave.svg << 'EOF'
-          <svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+          cat > dist/boat.svg << 'EOF'
+          <svg width="800" height="250" xmlns="http://www.w3.org/2000/svg">
 
-            <style>
-              .bg { fill: #0F172A; }
-              .wave { fill: none; stroke: #38BDF8; stroke-width: 2; }
-              .boat { fill: #F59E0B; }
-            </style>
-
-            <rect width="100%" height="100%" class="bg"/>
+            <rect width="100%" height="100%" fill="#0F172A"/>
 
             <!-- Waves -->
-            <path class="wave" d="M0 200 Q100 180 200 200 T400 200 T600 200 T800 200 T1000 200">
-              <animateTransform 
-                attributeName="transform"
-                type="translate"
-                values="0 0; -200 0"
-                dur="4s"
-                repeatCount="indefinite"/>
+            <path d="M0 180 Q100 160 200 180 T400 180 T600 180 T800 180" stroke="#38BDF8" fill="none">
+              <animateTransform attributeName="transform" type="translate"
+                values="0 0; -200 0" dur="4s" repeatCount="indefinite"/>
             </path>
 
-            <path class="wave" d="M0 220 Q100 200 200 220 T400 220 T600 220 T800 220 T1000 220">
-              <animateTransform 
-                attributeName="transform"
-                type="translate"
-                values="0 0; -200 0"
-                dur="6s"
-                repeatCount="indefinite"/>
+            <path d="M0 200 Q100 180 200 200 T400 200 T600 200 T800 200" stroke="#1E3A8A" fill="none">
+              <animateTransform attributeName="transform" type="translate"
+                values="0 0; -200 0" dur="6s" repeatCount="indefinite"/>
             </path>
 
             <!-- Boat -->
             <g>
-              <!-- Body -->
-              <polygon class="boat" points="420,180 480,180 460,200 440,200"/>
+              <polygon points="350,170 420,170 400,190 370,190" fill="#F59E0B"/>
+              <line x1="385" y1="170" x2="385" y2="130" stroke="white"/>
+              <polygon points="385,130 385,170 420,150" fill="white"/>
 
-              <!-- Mast -->
-              <line x1="450" y1="180" x2="450" y2="140" stroke="white" stroke-width="2"/>
+              <!-- Move left-right -->
+              <animateTransform attributeName="transform" type="translate"
+                values="-80 0; 80 0; -80 0"
+                dur="6s" repeatCount="indefinite"/>
 
-              <!-- Sail -->
-              <polygon points="450,140 450,180 480,160" fill="white"/>
-
-              <!-- Floating animation -->
-              <animateTransform 
-                attributeName="transform"
-                type="translate"
-                values="-100 0; 100 0; -100 0"
-                dur="6s"
-                repeatCount="indefinite"/>
-              
-              <animateTransform 
-                attributeName="transform"
-                type="translate"
+              <!-- Float up-down -->
+              <animateTransform attributeName="transform" type="translate"
                 values="0 0; 0 -10; 0 0"
-                dur="3s"
-                additive="sum"
+                dur="3s" additive="sum"
                 repeatCount="indefinite"/>
             </g>
 
-            <text x="20" y="280" fill="white">
-              🌊 Sailing through commits
+            <text x="20" y="230" fill="white">
+              🌊 Sailing through code
             </text>
 
           </svg>
           EOF
 
-      - name: Push to output branch
+      - name: Push SVG
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
+
+
+
+
+
+
+
+
+
+
+
