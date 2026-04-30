@@ -1,10 +1,17 @@
-<svg width='500' height='100' xmlns='http://www.w3.org/2000/svg'>
-<rect width='500' height='100' fill='#0d1117'/>
-<line x1='10' y1='50' x2='490' y2='50' stroke='white' stroke-width='2'/>
-<circle cx='155' cy='50' r='8' fill='lime'/>
-<rect x="10" y="70" width="480" height="10" fill="gray"/>
-<rect x="10" y="70" width="200" height="10" fill="lime"/>
-<text x="10" y="20" fill="white">Level: 3</text>
-<text x="120" y="20" fill="white">Score: 150</text>
-<text x="300" y="20" fill="yellow">Reach End →</text>
+<svg width="600" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="120" fill="#0d1117"/>
+
+  <!-- Ship -->
+  <text x="50" y="60" font-size="24">🚀</text>
+
+  <!-- Asteroids -->
+  <text x="200" y="60" font-size="20">☄️</text>
+  <text x="350" y="60" font-size="20">☄️</text>
+
+  <!-- Status -->
+  <text x="10" y="20" fill="white">Status: Safe</text>
+  <text x="450" y="20" fill="white">❤️ Lives: 3</text>
+
+  <!-- Goal -->
+  <text x="200" y="100" fill="cyan">Survive as long as possible</text>
 </svg>
