@@ -265,14 +265,66 @@
 
 
 
-name: Space Contribution Generator
+# name: Space Contribution Generator
+
+# on:
+#   workflow_dispatch:
+
+# env:
+#   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+#   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - name: Checkout
+#         uses: actions/checkout@v4
+
+#       - name: Show files (DEBUG)
+#         run: ls -R
+
+#       - name: Setup Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.11"
+
+#       - name: Install deps
+#         run: pip install requests
+
+#       - name: Run script (DEBUG)
+#         run: |
+#           python scripts/generate_svg.py || echo "SCRIPT FAILED"
+
+#       - name: Check output (DEBUG)
+#         run: ls dist || echo "NO DIST FOLDER"
+
+#       - name: Commit
+#         run: |
+#           git config user.name "meet6949"
+#           git config user.email "meet6949@users.noreply.github.com"
+#           git add .
+#           git commit -m "update" || echo "no changes"
+#           git push
+
+
+
+
+
+
+
+
+
+
+name: Space Debug
 
 on:
   workflow_dispatch:
 
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   build:
@@ -282,7 +334,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Show files (DEBUG)
+      - name: Show files before
         run: ls -R
 
       - name: Setup Python
@@ -290,20 +342,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Install deps
+      - name: Install requests
         run: pip install requests
 
-      - name: Run script (DEBUG)
+      - name: Run script
         run: |
-          python scripts/generate_svg.py || echo "SCRIPT FAILED"
+          python scripts/generate_svg.py
 
-      - name: Check output (DEBUG)
-        run: ls dist || echo "NO DIST FOLDER"
+      - name: Show files after
+        run: ls -R
 
-      - name: Commit
+      - name: Push file
         run: |
           git config user.name "meet6949"
           git config user.email "meet6949@users.noreply.github.com"
+
           git add .
-          git commit -m "update" || echo "no changes"
+
+          git commit -m "debug svg" || echo "no changes"
+
           git push
