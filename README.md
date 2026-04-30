@@ -4,7 +4,7 @@ Welcome to my interactive GitHub profile.
 
 ## 🕹️ Live Game
 
-![Game](./game.svg?rand=123)
+![Game](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/main/game.svg)
 ---
 
 ## 📊 My Activity Graph
