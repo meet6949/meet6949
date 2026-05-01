@@ -120,7 +120,7 @@ class Meet:
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/ai-training.svg" />
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/game.svg">
 </p> -->
 
@@ -151,7 +151,7 @@ class Meet:
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1E3A8A,100:0F172A&height=120&section=footer"/>
 
- -->
+ --> -->
 
 
 
