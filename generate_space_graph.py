@@ -4,7 +4,7 @@ from datetime import datetime
 import random
 
 # Configuration
-USERNAME = "herit007"
+USERNAME = "meet6949"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 OUTPUT_FILE = "dist/space-contribution-graph.svg"
 
