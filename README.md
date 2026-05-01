@@ -124,12 +124,12 @@ class Meet:
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/game.svg">
 </p> -->
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/game.svg">
-</p>
+</p> -->
 
 
-<!-- <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/dist/space.svg?v=1">--- -->
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/main/dist/space.svg?v=1">
 
 ## 🌐 Connect With Me
 
