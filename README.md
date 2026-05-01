@@ -124,34 +124,6 @@ class Meet:
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/game.svg">
 </p> -->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/game.svg">
-</p>
-
-
-<img src="https://raw.githubusercontent.com/meet6949/meet6949/main/dist/space.svg?v=1">
-
-## 🌐 Connect With Me
-
-<p align="center">
-<a href="https://www.linkedin.com/in/meet-patel-3b3b64401/?skipRedirect=true">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
-</a>
-
-<a href="mailto:meet70849@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
-</a>
-</p>
-
----
-
-## ⚡ Fun Fact
-
-> I enjoy transforming messy datasets into meaningful stories and real-world solutions.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1E3A8A,100:0F172A&height=120&section=footer"/>
-
- --> -->
 
 
 
