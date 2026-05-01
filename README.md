@@ -112,7 +112,7 @@ class Meet:
 
 ## 📊 Contribution Activity Timeline
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/commit-graph.svg" />
 </p> 
 
@@ -122,9 +122,9 @@ class Meet:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/game.svg">
-</p>
+</p> -->
 
-<!-- <p align="center">
+<p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/game.svg">
 </p>
 
