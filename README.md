@@ -1,27 +1,30 @@
-<!-- <div align="center">
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:7C3AED&height=220&section=header&text=Meet%20Gajera&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Builder&descAlignY=55"/>
+<!-- Data Science Themed Header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,50:2563EB,100:06B6D4&text=Meet%20Tgajera&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Analytics%20%7C%20Statistics%20%7C%20Future%20ML%20Engineer&descAlignY=58"/>
 
-# Hi 👋, I'm Meet
 
-### Data Science Enthusiast • ML Explorer • Builder
+<br/>
+
+# 👋 Welcome to My Data Science Journey
+
+### 📊 Transforming Data into Actionable Insights
 
 <p align="center">
-  <a href="https://readme-typing-svg.herokuapp.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+cool+projects+with+data+and+code;Machine+Learning+%7C+EDA+%7C+Dashboards;Always+learning+something+new" />
-  </a>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/heatmap.svg" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=700&lines=Python+%7C+SQL+%7C+Machine+Learning;Building+Data-Driven+Solutions;EDA+%7C+Statistics+%7C+Predictive+Analytics;From+Raw+Data+to+Smart+Decisions" alt="Typing SVG" />
 </p>
 
-
+<br/>
 
 </div>
 
 ---
 
 ## 🚀 About Me
+
+<table>
+<tr>
+<td width="55%">
 
 ```python
 class Meet:
@@ -38,9 +41,8 @@ class Meet:
         ]
 
         self.current_learning = [
-            "Exploratory Data Analysis (EDA)",
+            "Exploratory Data Analysis",
             "Data Preprocessing",
-            "Missing Value Imputation",
             "Feature Engineering",
             "Scikit-learn"
         ]
@@ -56,215 +58,193 @@ class Meet:
         return "Learning data today, building intelligent systems tomorrow."
 ```
 
----
+</td>
 
-## 🛠️ Tech Stack
+<td width="45%">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG4xemV4d2JpZmZzM3g1aHJqMmNpbm4zMXpwNTRwOHV4em9mN3VjNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LMt9638dO8dftAjtco/giphy.gif" width="100%"/>
+</td>
+</tr>
+</table>
 
-### Languages
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python)
-![SQL](https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=mysql)
+</td>
 
-### Data Science / ML
-![Pandas](https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-111827?style=for-the-badge&logo=numpy)
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-111827?style=for-the-badge&logo=scikitlearn)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-111827?style=for-the-badge&logo=tensorflow)
+<td width="45%" align="center">
 
-### Visualization & Tools
-![Power BI](https://img.shields.io/badge/PowerBI-111827?style=for-the-badge&logo=powerbi)
-![Excel](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git)
-![VS Code](https://img.shields.io/badge/VSCode-111827?style=for-the-badge&logo=visualstudiocode)
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="85%"/>
 
+<br/><br/>
 
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
+</td>
+</tr>
+</table>
 
 ---
 
-## 🌱 Learning Journey
+## 🛠️ Tech Stack & Tools
 
-✅ Data Analysis with Excel, SQL, Power BI  
-✅ Python for Data Analysis  
-✅ Statistics Fundamentals  
+<div align="center">
 
-🔄 Currently Learning  
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing
-- Scikit-learn
+### Programming & Data Science
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white)
 
-🎯 Next Up  
-- Supervised Learning
-- Unsupervised Learning
-- Deep Learning
-- NLP
----
+### Visualization & BI Tools
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
 
-## 📊 Contribution Activity Timeline
-
-<!-- <p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/commit-graph.svg" />
-</p> 
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/ai-training.svg" />
-</p> -->
-
-<!-- <p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/main/game.svg">
-</p> -->
-
-
-
-
- <div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:7C3AED&height=220&section=header&text=Meet%20TGajera&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Data%20Science%20%7C%20Machine%20Learning%20%7C%20Builder&descAlignY=55"/>
-
-# Hi 👋, I'm Meet
-
-### Data Science Enthusiast • ML Explorer • Builder
-
-<p align="center">
-  <a href="https://readme-typing-svg.herokuapp.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&center=true&vCenter=true&width=650&lines=Building+cool+projects+with+data+and+code;Machine+Learning+%7C+EDA+%7C+Dashboards;Always+learning+something+new" />
-  </a>
-</p>
+### Development Environment
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 📌 Featured Projects
 
-```python
-class Herit:
-    def __init__(self):
-        self.role = "Aspiring Data Scientist"
-        self.location = "India"
-
-        self.skills = [
-            "Power BI",
-            "Excel",
-            "SQL",
-            "Python",
-            "Statistics"
-        ]
-
-        self.current_learning = [
-            "Exploratory Data Analysis (EDA)",
-            "Data Preprocessing",
-            "Missing Value Imputation",
-            "Feature Engineering",
-            "Scikit-learn"
-        ]
-
-        self.future_roadmap = [
-            "Supervised Learning",
-            "Unsupervised Learning",
-            "Deep Learning",
-            "NLP"
-        ]
-
-    def motto(self):
-        return "Learning data today, building intelligent systems tomorrow."
-```
 
 ---
 
-## 🛠️ Tech Stack
+## 📈 GitHub Analytics
 
-### Languages
-![Python](https://img.shields.io/badge/Python-111827?style=for-the-badge&logo=python)
-![SQL](https://img.shields.io/badge/SQL-111827?style=for-the-badge&logo=mysql)
+<div align="center">
 
-### Data Science / ML
-![Pandas](https://img.shields.io/badge/Pandas-111827?style=for-the-badge&logo=pandas)
-![NumPy](https://img.shields.io/badge/NumPy-111827?style=for-the-badge&logo=numpy)
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-111827?style=for-the-badge&logo=scikitlearn)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-111827?style=for-the-badge&logo=tensorflow)
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=3b82f6&icon_color=38bdf8&text_color=c9d1d9"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=38bdf8&currStreakLabel=38bdf8"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true"/>
 
-### Visualization & Tools
-![Power BI](https://img.shields.io/badge/PowerBI-111827?style=for-the-badge&logo=powerbi)
-![Excel](https://img.shields.io/badge/Git-111827?style=for-the-badge&logo=git)
-![VS Code](https://img.shields.io/badge/VSCode-111827?style=for-the-badge&logo=visualstudiocode)
+</div>
 
 ---
 
-## 📈 GitHub Stats
+## 🌱 Learning Roadmap
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true"/>
-</p>
+<table>
+<tr>
+<td width="25%" align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true"/>
-</p>
+### ✅ Foundation
+- Excel Analytics
+- SQL Mastery
+- Power BI Dashboards
+- Python Basics
+- Statistics & Probability
+- Data Visualization
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true"/>
-</p>
+</td>
+<td width="25%" align="center">
 
----
+### 🔄 Current Focus
+- **Exploratory Data Analysis**
+- **Data Preprocessing**
+- **Feature Engineering**
+- **Scikit-learn**
+- Statistical Modeling
+- Advanced Pandas
 
-## 🌱 Learning Journey
+</td>
+<td width="25%" align="center">
 
-✅ Data Analysis with Excel, SQL, Power BI  
-✅ Python for Data Analysis  
-✅ Statistics Fundamentals  
-
-🔄 Currently Learning  
-- Exploratory Data Analysis (EDA)
-- Data Preprocessing
-- Scikit-learn
-
-🎯 Next Up  
+### 🎯 Next Phase
 - Supervised Learning
 - Unsupervised Learning
-- Deep Learning
-- NLP
+- Model Evaluation
+- Hyperparameter Tuning
+- Ensemble Methods
+- Time Series Analysis
+
+</td>
+<td width="25%" align="center">
+
+### 🚀 Future Goals
+- Deep Learning & NNs
+- Computer Vision
+- Natural Language Processing
+- MLOps & Deployment
+- Big Data Technologies
+- AI Research
+
+</td>
+</tr>
+</table>
+
 ---
 
-## 👾 Contribution Arcade
+## 👾 Contribution Activity
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/space-contribution-graph.svg" alt="Space rocket contribution graph" width="900"/>
+  <img src="https://github.com/meet6949/meet6949/blob/output/pacman-contribution-graph.svg" alt="Contribution Graph"/>
 </p>
 
 ---
 
 ## 🌐 Connect With Me
 
-<p align="center">
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="250">
 <a href="https://www.linkedin.com/in/meet-patel-3b3b64401/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
+<br/>
+<sub><b>Let's Network</b></sub>
+</td>
 
-<a href="mailto:meet70849@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail"/>
+<td align="center" width="250">
+<a href="meet70849@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
+<br/>
+<sub><b>Drop a Message</b></sub>
+</td>
 
-<!-- <a href="https://portfolio-website-m33mwyxspkv9tsfattzjet.streamlit.app/">
-<img src="https://img.shields.io/badge/Portfolio-111827?style=for-the-badge&logo=vercel"/>
+<td align="center" width="250">
+<a href="https://github.com/herit007">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
-</p> -->
+<br/>
+<sub><b>Explore My Code</b></sub>
+</td>
+
+<td align="center" width="250">
+<a href="https://portfolio-website-m33mwyxspkv9tsfattzjet.streamlit.app/">
+<img src="https://img.shields.io/badge/Portfolio-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Portfolio"/>
+</a>
+<br/>
+<sub><b>View My Work</b></sub>
+</td>
+</tr>
+</table>
+
+<br/>
+
+### 📊 Profile Views
+
+![Profile Views](https://komarev.com/ghpvc/?username=meet6949&color=3b82f6&style=for-the-badge&label=PROFILE+VIEWS)
+
+</div>
 
 ---
 
-## ⚡ Fun Fact
 
-> I enjoy transforming messy datasets into meaningful stories and real-world solutions.
+<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:1E3A8A,100:0F172A&height=120&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:0F172A,50:2563EB,100:06B6D4"/>
 
+### ⭐ Thanks for visiting my profile
 
+**From [herit007](https://github.com/meet6949)**
+
+</div>
