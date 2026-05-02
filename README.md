@@ -211,22 +211,14 @@ class Meet:
 </td>
 
 <td align="center" width="250">
-<a href="https://github.com/herit007">
+<a href="https://github.com/meet6949">
 <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
 </a>
 <br/>
 <sub><b>Explore My Code</b></sub>
 </td>
 
-<td align="center" width="250">
-<a href="https://portfolio-website-m33mwyxspkv9tsfattzjet.streamlit.app/">
-<img src="https://img.shields.io/badge/Portfolio-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Portfolio"/>
-</a>
-<br/>
-<sub><b>View My Work</b></sub>
-</td>
-</tr>
-</table>
+
 
 <br/>
 
