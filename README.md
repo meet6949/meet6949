@@ -237,6 +237,6 @@ class Meet:
 
 ### ⭐ Thanks for visiting my profile
 
-**From [herit007](https://github.com/meet6949)**
+**From [meet6949](https://github.com/meet6949)**
 
 </div>
