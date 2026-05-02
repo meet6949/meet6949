@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Data Science Themed Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,50:2563EB,100:06B6D4&text=Meet%20Tgajera&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Analytics%20%7C%20Statistics%20%7C%20Future%20ML%20Engineer&descAlignY=58"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,50:2563EB,100:06B6D4&text=Meet%20Gajera&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Data%20Analytics%20%7C%20Statistics%20%7C%20Future%20ML%20Engineer&descAlignY=58"/>
 
 
 <br/>
