@@ -240,6 +240,3 @@ class Meet:
 **From [meet6949](https://github.com/meet6949)**
 
 </div>
-### ⭐ Thanks for visiting my profile
-
-**From [meet6949](https://github.com/meet6949)**
