@@ -38,6 +38,18 @@
 
 <br/>
 
+</td>
+
+<td width="45%" align="center">
+
+<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="85%"/>
+
+<br/><br/>
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## ⚔️ CYBER TECH STACK
@@ -56,6 +68,23 @@
 ![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+</div>
+
+---
+<!--
+## 📌 Featured Projects
+
+-->
+---
+
+## 📈 GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=3b82f6&icon_color=38bdf8&text_color=c9d1d9"/>
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=38bdf8&currStreakLabel=38bdf8"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight"/>
 
 </div>
 
@@ -103,6 +132,28 @@
 
 <table border="0">
 <tr>
+<td align="center" width="250">
+<a href="https://www.linkedin.com/in/meet-patel-3b3b64401/">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<br/>
+<sub><b>Let's Network</b></sub>
+</td>
+
+<td align="center" width="250">
+<a href="meet70849@gmail.com">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
+</a>
+<br/>
+<sub><b>Drop a Message</b></sub>
+</td>
+
+<td align="center" width="250">
+<a href="https://github.com/meet6949">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
+<br/>
+<sub><b>Explore My Code</b></sub>
 <td>
 <img width="400" src="https://github-readme-stats-sigma-five.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=00F0FF&icon_color=00F0FF&text_color=c9d1d9"/>
 </td>
@@ -117,8 +168,8 @@
 <td>
 <img width="400" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight"/>
 </td>
-</tr>
-</table>
+
+
 
 </div>
 

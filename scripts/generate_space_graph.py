@@ -3,7 +3,7 @@ import os
 import random
 
 # Configuration
-USERNAME = "meet6949"
+USERNAME = "herit007"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 OUTPUT_FILE = "dist/space-contribution-graph.svg"
 
