@@ -22,60 +22,31 @@
 
 ## 🚀 About Me
 
-<table>
-<tr>
-<td width="55%">
+<table border="0">
+  <tr>
+    <td width="60%">
+      <div align="left">
+        <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=1000&color=38BDF8&width=400&lines=class+Meet:;++++def+__init__(self):;++++++++self.role+=+'Data+Scientist';++++++++self.focus+=+'ML+Analytics'" alt="Typing SVG" />
+      </div>
+<br/>
 
 ```python
 class Meet:
     def __init__(self):
         self.role = "Aspiring Data Scientist"
         self.location = "India"
-
-        self.skills = [
-            "Power BI",
-            "Excel",
-            "SQL",
-            "Python",
-            "Statistics"
-        ]
-
-        self.current_learning = [
-            "Exploratory Data Analysis",
-            "Data Preprocessing",
-            "Feature Engineering",
-            "Scikit-learn"
-        ]
-
-        self.future_roadmap = [
-            "Supervised Learning",
-            "Unsupervised Learning",
-            "Deep Learning",
-            "NLP"
-        ]
+        self.skills = ["Python", "SQL", "Power BI", "Statistics"]
+        self.focus = "Machine Learning & EDA"
 
     def motto(self):
-        return "Learning data today, building intelligent systems tomorrow."
+        return "Transforming raw data into actionable intelligence."
 ```
 
-</td>
-
-<td width="45%">
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG4xemV4d2JpZmZzM3g1aHJqMmNpbm4zMXpwNTRwOHV4em9mN3VjNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LMt9638dO8dftAjtco/giphy.gif" width="100%"/>
-</td>
-</tr>
-</table>
-
-</td>
-
-<td width="45%" align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="85%"/>
-
-<br/><br/>
-
-</td>
-</tr>
+    </td>
+    <td width="40%" align="center">
+      <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaG4xemV4d2JpZmZzM3g1aHJqMmNpbm4zMXpwNTRwOHV4em9mN3VjNyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/LMt9638dO8dftAjtco/giphy.gif" width="100%"/>
+    </td>
+  </tr>
 </table>
 
 ---
@@ -109,20 +80,58 @@ class Meet:
 </div>
 
 ---
-<!--
-## 📌 Featured Projects
 
--->
----
-
-## 📈 GitHub Analytics
+## 🛰️ System Status
 
 <div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true&title_color=3b82f6&text_color=c9d1d9&bg_color=0d1117" width="45%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=3b82f6&icon_color=38bdf8&text_color=c9d1d9" width="45%" />
+</div>
 
-<img width="49%" src="https://github-readme-stats-sigma-five.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=3b82f6&icon_color=38bdf8&text_color=c9d1d9"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true&background=0d1117&ring=3b82f6&fire=38bdf8&currStreakLabel=38bdf8"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight"/>
+<br/>
 
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="90%"/>
+</div>
+
+---
+
+## 🌌 Featured Universe
+
+<table border="0">
+  <tr>
+    <td width="33%" align="center">
+      <img src="https://img.shields.io/badge/Project-UPI_Analysis-blue?style=for-the-badge&logo=googlepay" /><br/>
+      <b>UPI Payment Analysis</b><br/>
+      <sub>Deep dive into transaction patterns and digital payment trends.</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://img.shields.io/badge/Project-Retail_Sales-cyan?style=for-the-badge&logo=shopify" /><br/>
+      <b>Retail Sales Insight</b><br/>
+      <sub>Predictive modeling and dashboarding for retail performance.</sub>
+    </td>
+    <td width="33%" align="center">
+      <img src="https://img.shields.io/badge/Project-Currency_Pulse-indigo?style=for-the-badge&logo=bank" /><br/>
+      <b>INR Currency Pulse</b><br/>
+      <sub>Real-time tracking and statistical analysis of currency fluctuations.</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🎮 Mission Control
+
+<div align="center">
+  <a href="https://github.com/meet6949?tab=repositories">
+    <img src="https://img.shields.io/badge/Explore-Repositories-3b82f6?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/meet-patel-3b3b64401/">
+    <img src="https://img.shields.io/badge/Connect-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+  <a href="mailto:meet70849@gmail.com">
+    <img src="https://img.shields.io/badge/Contact-Email-EA4335?style=for-the-badge&logo=gmail" />
+  </a>
 </div>
 
 ---
@@ -183,7 +192,11 @@ class Meet:
 ## 👾 Contribution Activity
 
 <p align="center">
-  <img src="https://github.com/meet6949/meet6949/blob/output/pacman-contribution-graph.svg" alt="Contribution Graph"/>
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/pacman-contribution-graph.svg" alt="Pac-Man Contribution Graph"/>
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/space-contribution-graph.svg" alt="Space Contribution Graph"/>
 </p>
 
 ---
@@ -203,7 +216,7 @@ class Meet:
 </td>
 
 <td align="center" width="250">
-<a href="meet70849@gmail.com">
+<a href="mailto:meet70849@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
 <br/>
