@@ -16,7 +16,7 @@ jobs:
       - name: Generate Pac-Man graph
         uses: abozanona/pacman-contribution-graph@main
         with:
-          github_user_name: herit007
+          github_user_name: meet6949
 
       - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v3
