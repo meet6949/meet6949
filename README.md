@@ -1,34 +1,32 @@
 <div align="center">
 
-<!-- Futuristic Cyber Header -->
-<img src="https://capsule-render.vercel.app/api?type=rect&height=200&color=0D1117&text=MEET%20GAJERA&fontSize=70&fontColor=00F0FF&fontAlignY=40&desc=DATA%20ARCHITECT%20%7C%20AI%20%26%20ANALYTICS%20VISIONARY&descAlignY=60&descSize=20" width="100%"/>
-
-<br/>
-
-### 🛰️ [ DECODING DATA TO DRIVE INSIGHTS ]
-
+<!-- Name and Title -->
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&pause=1000&color=00F0FF&center=true&vCenter=true&width=700&lines=INITIATING+SYSTEM+PROTOCOLS...;EXTRACTING+ACTIONABLE+INTELLIGENCE;BUILDING+PREDICTIVE+MODELS;OPTIMIZING+DATA+PIPELINES" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=100&color=0D1117&text=MEET%20GAJERA&fontSize=50&fontColor=ffffff&fontAlignY=40" width="100%"/>
 </p>
 
+**🚀 Data Architect | AI & Analytics Visionary**
+
+### [ DECODING DATA TO DRIVE IN ]
+
 <br/>
 
----
+<img src="https://raw.githubusercontent.com/herit007/herit007/main/assets/line.gif" width="100%"/>
+
+<br/>
 
 ## 🖥️ SYSTEM STATUS
 
-| 🟢 Status | ⚡ Operational |
+| 🌐 Status | ⚡ Operational |
 | :--- | :--- |
-| **Current Objective** | Mastering Deep Learning & NLP |
-| **Active Environment** | Python, SQL, Power BI |
-| **Neural Processing** | Statistics, Predictive Analytics |
-| **Uptime** | Constant Learning |
+| **Last Synchronized** | 2024-10-25 08:30:45 UTC |
+| **Technical Tip** | SQL Indexing: Indexes used in JOIN and WHERE clauses can drastically improve query speed. |
 
 <br/>
 
 ---
 
-## 🚀 MISSION CONTROL (Core Specializations)
+## 🚀 MISSION CONTROL
 
 <div align="center">
 
@@ -65,7 +63,31 @@
 
 ---
 
-## 🌌 THE GREEN VOID (Contribution Universe)
+## 🚀 FEATURED UNIVERSE
+
+<div align="center">
+
+| 💳 UPI Payment Analysis | 🏪 Retail Sales Insight |
+| :---: | :---: |
+| <img src="https://raw.githubusercontent.com/herit007/herit007/main/assets/upi.png" width="400"/> | <img src="https://raw.githubusercontent.com/herit007/herit007/main/assets/retail.png" width="400"/> |
+| Interactive dashboard analyzing transaction trends and market share of major UPI apps in India. Built with Power BI & DAX. | End-to-end analysis of retail performance, customer churn, and product category contribution using SQL and Power BI. |
+| [📂 VIEW PROJECT](https://github.com/meet6949) | [📂 VIEW PROJECT](https://github.com/meet6949) |
+
+<br/>
+
+| 📈 INR Currency Pulse |
+| :---: |
+| <img src="https://raw.githubusercontent.com/herit007/herit007/main/assets/currency.png" width="400"/> |
+| Real-time tracking and YoY growth analysis of INR against major global currencies like USD, EUR, and GBP. |
+| [📂 VIEW PROJECT](https://github.com/meet6949) |
+
+</div>
+
+<br/>
+
+---
+
+## 🌌 THE GREEN VOID
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/pacman-contribution-graph.svg" alt="Contribution Graph" width="100%"/>
@@ -75,7 +97,7 @@
 
 ---
 
-## 📊 NEURAL METRICS (GitHub Statistics)
+## 📊 NEURAL METRICS
 
 <div align="center">
 
@@ -104,7 +126,7 @@
 
 ---
 
-## 🌐 UPLINK (Connect with the Network)
+## 🌐 UPLINK
 
 <div align="center">
 
@@ -119,7 +141,5 @@
 <br/>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=50&color=0D1117&section=footer" width="100%"/>
-
-**[ TRANSMISSION END ]**
 
 </div>
