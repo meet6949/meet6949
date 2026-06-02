@@ -14,8 +14,8 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-28 09:35:49 UTC` |
-| **Tactical Tip** | `SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.` |
+| **Last Synchronized** | `2026-06-02 20:41:15 UTC` |
+| **Tactical Tip** | `Deep learning: Dropout is a powerful technique to prevent overfitting in neural networks.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -47,6 +47,8 @@
   </tr>
 </table>
 
+<br>
+
 ---
 
 # 🛠️ CYBER TECH STACK
@@ -67,28 +69,30 @@
 
 </div>
 
+<br>
+
 ---
-<!---
+
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
 
 <table width="100%">
   <tr>
-    <td width="50%">
-      <h3 align="center">💳 UPI Payment Analysis</h3>
+    <td width="50%" align="center">
+      <h3>💳 UPI Payment Analysis</h3>
       <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/UPI%20Analysis/dashboard.png" width="100%">
-      <p align="left">Interactive dashboard analyzing transaction trends and market share of major UPI apps in India. Built with Power BI & DAX.</p>
+      <p align="center">Interactive dashboard analyzing transaction trends and market share of major UPI apps in India. Built with Power BI & DAX.</p>
       <div align="center">
         <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/UPI%20Analysis">
           <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
         </a>
       </div>
     </td>
-    <td width="50%">
-      <h3 align="center">🛒 Retail Sales Insight</h3>
+    <td width="50%" align="center">
+      <h3>🛒 Retail Sales Insight</h3>
       <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/Retail%20Store%20Sales%20Analysis/Dashboard.png" width="100%">
-      <p align="left">End-to-end analysis of retail performance, customer churn, and product category contribution using SQL and Power BI.</p>
+      <p align="center">End-to-end analysis of retail performance, customer churn, and product category contribution using SQL and Power BI.</p>
       <div align="center">
         <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis">
           <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
@@ -97,10 +101,10 @@
     </td>
   </tr>
   <tr>
-    <td width="50%">
-      <h3 align="center">💱 INR Currency Pulse</h3>
+    <td width="50%" align="center">
+      <h3>💱 INR Currency Pulse</h3>
       <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/INR-Currency-Dashboard/currency_dashboard.png" width="100%">
-      <p align="left">Real-time tracking and YoY growth analysis of INR against major global currencies like USD, EUR, and GBP.</p>
+      <p align="center">Real-time tracking and YoY growth analysis of INR against major global currencies like USD, EUR, and GBP.</p>
       <div align="center">
         <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard">
           <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
@@ -115,7 +119,29 @@
 </table>
 
 </div>
---->
+
+---
+
+<div align="center">
+
+<!-- BEGIN MINESWEEPER BOARD -->
+### 💣 Community Minesweeper
+Can you clear the grid without hitting a mine?
+
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| **A** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A1) | 1️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A5) |
+| **B** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B2) | 2️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B5) |
+| **C** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C5) |
+| **D** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D5) |
+| **E** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E5) |
+
+Click a `[?]` to reveal a tile!
+
+<!-- END MINESWEEPER BOARD -->
+
+</div>
+
 ---
 
 # THE GREEN VOID
@@ -131,6 +157,10 @@
 # 📊 NEURAL METRICS
 
 <div align="center">
+
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/output/github-metrics-languages.svg" width="100%">
+
+<br>
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
 
