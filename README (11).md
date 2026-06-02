@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 HERIT TANNA
+# 🌌 MEET GAJERA
 ### 🚀 Data Architect | AI & Analytics Visionary
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=200&lines=Decoding+Data+to+Drive+Innovation;Building+Intelligent+Data+Experiences;Transforming+Raw+Information+into+Strategic+Insights" alt="Typing SVG" />
@@ -77,20 +77,20 @@
   <tr>
     <td width="50%">
       <h3 align="center">💳 UPI Payment Analysis</h3>
-      <img src="https://raw.githubusercontent.com/herit007/Data-Analytics-Portfolio/main/UPI%20Analysis/dashboard.png" width="100%">
+      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/UPI%20Analysis/dashboard.png" width="100%">
       <p align="left">Interactive dashboard analyzing transaction trends and market share of major UPI apps in India. Built with Power BI & DAX.</p>
       <div align="center">
-        <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/UPI%20Analysis">
+        <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/UPI%20Analysis">
           <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
         </a>
       </div>
     </td>
     <td width="50%">
       <h3 align="center">🛒 Retail Sales Insight</h3>
-      <img src="https://raw.githubusercontent.com/herit007/Data-Analytics-Portfolio/main/Retail%20Store%20Sales%20Analysis/Dashboard.png" width="100%">
+      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/Retail%20Store%20Sales%20Analysis/Dashboard.png" width="100%">
       <p align="left">End-to-end analysis of retail performance, customer churn, and product category contribution using SQL and Power BI.</p>
       <div align="center">
-        <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis">
+        <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis">
           <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
         </a>
       </div>
@@ -99,10 +99,10 @@
   <tr>
     <td width="50%">
       <h3 align="center">💱 INR Currency Pulse</h3>
-      <img src="https://raw.githubusercontent.com/herit007/Data-Analytics-Portfolio/main/INR-Currency-Dashboard/currency_dashboard.png" width="100%">
+      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/INR-Currency-Dashboard/currency_dashboard.png" width="100%">
       <p align="left">Real-time tracking and YoY growth analysis of INR against major global currencies like USD, EUR, and GBP.</p>
       <div align="center">
-        <a href="https://github.com/herit007/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard">
+        <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard">
           <img src="https://img.shields.io/badge/View_Project-00D9FF?style=for-the-badge&logo=github&logoColor=black"/>
         </a>
       </div>
@@ -122,7 +122,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/herit007/herit007/output/profile-night-green.svg" width="100%">
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/output/profile-night-green.svg" width="100%">
 
 </div>
 
@@ -132,11 +132,11 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=herit007&theme=tokyonight" width="100%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
 
 <br>
 
-<img src="https://github-readme-stats.vercel.app/api?username=herit007&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
 
 </div>
 
@@ -146,7 +146,7 @@
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=herit007&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=meet6949&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7" />
 
 </div>
 
@@ -156,15 +156,15 @@
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/tanna-herit-38b679387/">
+<a href="https://www.linkedin.com/in/meet-patel-3b3b64401/?skipRedirect=true">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="mailto:blender740@gmail.com">
+<a href="mailto:meet70849@gmail.com">
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<a href="https://herit007.github.io">
+<a href="https://meet6949.github.io">
 <img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
 
@@ -174,7 +174,7 @@
 
 <div align="center">
 
-### ⭐️ Designed by [herit007](https://github.com/herit007)
+### ⭐️ Designed by [meet6949](https://github.com/meet6949)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=100&section=footer&text=END+OF+TRANSMISSION&fontSize=30&fontAlignY=70&animation=twinkling&fontColor=ffffff" />
 
