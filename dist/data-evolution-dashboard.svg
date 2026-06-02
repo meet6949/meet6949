@@ -1,15 +1,15 @@
 <svg width="480" height="200" viewBox="0 0 480 200" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
-        .header { font: bold 14px 'Courier New', monospace; fill: #38bdf8; }
-        .stat-label { font: 12px 'Courier New', monospace; fill: #c9d1d9; }
-        .stat-value { font: bold 12px 'Courier New', monospace; fill: #38bdf8; }
+        .header { font: bold 14px 'Courier New', monospace; fill: #7aa2f7; }
+        .stat-label { font: 12px 'Courier New', monospace; fill: #c0caf5; }
+        .stat-value { font: bold 12px 'Courier New', monospace; fill: #7aa2f7; }
         .log-text { font: 10px 'Courier New', monospace; fill: #8b949e; }
 
         @keyframes blink {
             0%, 100% { opacity: 1; }
             50% { opacity: 0; }
         }
-        .cursor { animation: blink 1s infinite; fill: #38bdf8; }
+        .cursor { animation: blink 1s infinite; fill: #7aa2f7; }
 
         @keyframes progress {
             0% { width: 0%; }
@@ -30,7 +30,7 @@
         }
     </style>
 
-    <rect width="480" height="200" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="2"/>
+    <rect width="480" height="200" rx="10" fill="#1a1b27" stroke="#30363d" stroke-width="2"/>
 
     <!-- Header -->
     <text x="20" y="30" class="header">INITIALIZING NEURAL_NETWORK.EXE...</text>
@@ -51,13 +51,13 @@
 
     <!-- Progress Bar -->
     <rect x="20" y="125" width="440" height="15" rx="3" fill="#161b22" stroke="#30363d"/>
-    <rect class="progress-bar" x="20" y="125" height="15" rx="3" fill="#38bdf8" opacity="0.8"/>
+    <rect class="progress-bar" x="20" y="125" height="15" rx="3" fill="#7aa2f7" opacity="0.8"/>
 
     <!-- Logs -->
     <g transform="translate(20, 160)">
-        <text y="0" class="log-text">[ 2026-06-02 08:40:44 ] Weights optimized from commit activity.</text>
-        <text y="15" class="log-text">[ 2026-06-02 08:40:44 ] Backpropagation complete for 12 Pull Requests.</text>
-        <text y="30" class="log-text">[ 2026-06-02 08:40:44 ] Model status: <tspan fill="#22c55e">STABLE</tspan></text>
+        <text y="0" class="log-text">[ 2026-06-02 08:49:09 ] Weights optimized from commit activity.</text>
+        <text y="15" class="log-text">[ 2026-06-02 08:49:09 ] Backpropagation complete for 12 Pull Requests.</text>
+        <text y="30" class="log-text">[ 2026-06-02 08:49:09 ] Model status: <tspan fill="#22c55e">STABLE</tspan></text>
         <rect x="180" y="22" width="6" height="10" class="cursor"/>
     </g>
 

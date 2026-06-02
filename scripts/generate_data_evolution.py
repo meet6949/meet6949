@@ -81,9 +81,9 @@ def generate_svg(stats):
 
     width = 480
     height = 200
-    bg_color = "#0d1117"
-    accent_color = "#38bdf8" # Cyan-ish
-    text_color = "#c9d1d9"
+    bg_color = "#1a1b27" # TokyoNight background
+    accent_color = "#7aa2f7" # TokyoNight blue
+    text_color = "#c0caf5" # TokyoNight text
 
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
