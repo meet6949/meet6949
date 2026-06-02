@@ -68,7 +68,7 @@
 </div>
 
 ---
-
+<!---
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
@@ -115,7 +115,7 @@
 </table>
 
 </div>
-
+--->
 ---
 
 # THE GREEN VOID
