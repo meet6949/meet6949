@@ -14,8 +14,9 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-28 09:35:49 UTC` |
-| **Tactical Tip** | `SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.` |
+| **Visitor Count** | ![Views](https://komarev.com/ghpvc/?username=meet6949&color=00D9FF&style=flat-square) |
+| **Last Synchronized** | `2026-06-03 20:59:11 UTC` |
+| **Tactical Tip** | `In Python, use f-strings for more readable and efficient string formatting.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -68,7 +69,7 @@
 </div>
 
 ---
-<!---
+
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
@@ -115,7 +116,7 @@
 </table>
 
 </div>
---->
+
 ---
 
 # THE GREEN VOID
@@ -128,11 +129,38 @@
 
 ---
 
+<!-- BEGIN MINESWEEPER BOARD -->
+### 💣 Community Minesweeper
+Can you clear the grid without hitting a mine?
+
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| **A** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A1) | 1️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A5) |
+| **B** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B2) | 2️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B5) |
+| **C** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C5) |
+| **D** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D5) |
+| **E** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E5) |
+
+Click a `[?]` to reveal a tile!
+
+<!-- END MINESWEEPER BOARD -->
+
+---
+
 # 📊 NEURAL METRICS
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 <br>
 
@@ -164,11 +192,9 @@
 <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
-<!---
 <a href="https://meet6949.github.io">
 <img src="https://img.shields.io/badge/Portfolio-00D9FF?style=for-the-badge&logo=googlechrome&logoColor=white"/>
 </a>
---->
 
 </div>
 
