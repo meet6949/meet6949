@@ -48,6 +48,7 @@ def update_readme(readme_path, tips_path):
             f"| 🛰️ Status | 🟢 Operational |\n"
             f"| :--- | :--- |\n"
             f"| **Last Synchronized** | `{current_time}` |\n"
+            f"| **System Accesses** | <img src=\"https://komarev.com/ghpvc/?username=meet6949&color=00D9FF&style=flat-square&label=ACCESS_COUNT\" alt=\"Visitor Count\" /> |\n"
             f"| **Tactical Tip** | `{tip}` |\n"
             f"{end_marker}"
         )
