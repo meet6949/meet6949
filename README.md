@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌌 MEET GAJERA
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00D9FF&height=200&section=header&text=MEET%20GAJERA&fontSize=70&animation=twinkling&fontColor=ffffff" />
 ### 🚀 Data Architect | AI & Analytics Visionary
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=200&lines=Decoding+Data+to+Drive+Innovation;Building+Intelligent+Data+Experiences;Transforming+Raw+Information+into+Strategic+Insights" alt="Typing SVG" />
@@ -14,8 +14,9 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-28 09:35:49 UTC` |
-| **Tactical Tip** | `SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.` |
+| **Last Synchronized** | `2026-06-04 20:58:04 UTC` |
+| **System Accesses** | <img src="https://komarev.com/ghpvc/?username=meet6949&color=00D9FF&style=flat-square&label=ACCESS_COUNT" alt="Visitor Count" /> |
+| **Tactical Tip** | `Always document your functions using docstrings (PEP 257) to explain their purpose and parameters.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -67,8 +68,23 @@
 
 </div>
 
+<!-- BEGIN MINESWEEPER BOARD -->
+### 💣 Community Minesweeper
+Can you clear the grid without hitting a mine?
+
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| **A** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A1) | 1️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A5) |
+| **B** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B2) | 2️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B5) |
+| **C** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C5) |
+| **D** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D5) |
+| **E** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E5) |
+
+Click a `[?]` to reveal a tile!
+
+<!-- END MINESWEEPER BOARD -->
+
 ---
-<!---
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
@@ -115,7 +131,7 @@
 </table>
 
 </div>
---->
+
 ---
 
 # THE GREEN VOID
@@ -132,11 +148,12 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+<table width="100%">
+  <tr>
+    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/></td>
+    <td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/></td>
+  </tr>
+</table>
 
 </div>
 
