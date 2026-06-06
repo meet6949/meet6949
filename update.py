@@ -49,6 +49,7 @@ def update_readme(readme_path, tips_path):
             f"| :--- | :--- |\n"
             f"| **Last Synchronized** | `{current_time}` |\n"
             f"| **Tactical Tip** | `{tip}` |\n"
+            f"| **System Visitors** | ![Visitors](https://komarev.com/ghpvc/?username=meet6949&color=00D9FF&style=flat-square) |\n"
             f"{end_marker}"
         )
 
