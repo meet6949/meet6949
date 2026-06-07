@@ -47,6 +47,7 @@ def update_readme(readme_path, tips_path):
             f"{start_marker}\n"
             f"| 🛰️ Status | 🟢 Operational |\n"
             f"| :--- | :--- |\n"
+            f"| **System Uptime** | ![Visitor Count](https://komarev.github.io/github-profile-count-badge/api/badge.svg?user=meet6949&color=00D9FF&style=flat-square) |\n"
             f"| **Last Synchronized** | `{current_time}` |\n"
             f"| **Tactical Tip** | `{tip}` |\n"
             f"{end_marker}"
