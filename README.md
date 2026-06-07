@@ -14,8 +14,9 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-28 09:35:49 UTC` |
-| **Tactical Tip** | `SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.` |
+| **System Uptime** | ![Visitor Count](https://komarev.github.io/github-profile-count-badge/api/badge.svg?user=meet6949&color=00D9FF&style=flat-square) |
+| **Last Synchronized** | `2026-06-07 20:37:48 UTC` |
+| **Tactical Tip** | `When working with large datasets, consider using chunking in pandas to save memory.` |
 <!-- SYSTEM_STATUS_END -->
 
 ---
@@ -51,24 +52,38 @@
 
 # 🛠️ CYBER TECH STACK
 
-### 🧬 Data Engineering & Intelligence
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+<div align="center">
 
-### 🔮 Visualization & Analytics
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h3>🧬 Languages & Tools</h3>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+    </td>
+    <td width="34%" align="center" valign="top">
+      <h3>📊 Data Engineering</h3>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h3>🔮 Visualization</h3>
+      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/><br>
+      <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 ---
-<!---
+
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
@@ -115,7 +130,6 @@
 </table>
 
 </div>
---->
 ---
 
 # THE GREEN VOID
@@ -128,15 +142,46 @@
 
 ---
 
+<!-- BEGIN MINESWEEPER BOARD -->
+### 💣 Community Minesweeper
+Can you clear the grid without hitting a mine?
+
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| **A** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A1) | 1️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A5) |
+| **B** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B2) | 2️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B5) |
+| **C** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C5) |
+| **D** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D5) |
+| **E** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E5) |
+
+Click a `[?]` to reveal a tile!
+
+<!-- END MINESWEEPER BOARD -->
+
+---
+
 # 📊 NEURAL METRICS
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+<table width="100%">
+  <tr>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=meet6949&theme=tokyonight" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/>
+    </td>
+    <td width="50%">
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true" width="100%"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
