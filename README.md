@@ -14,70 +14,97 @@
 <!-- SYSTEM_STATUS_START -->
 | 🛰️ Status | 🟢 Operational |
 | :--- | :--- |
-| **Last Synchronized** | `2026-05-28 09:35:49 UTC` |
-| **Tactical Tip** | `SQL: Indexing columns used in JOIN and WHERE clauses can drastically improve query speed.` |
+| **Last Synchronized** | `2026-06-10 21:10:31 UTC` |
+| **Tactical Tip** | `Keep your code modular by breaking it into smaller, reusable components.` |
+| **Neural Uplinks** | ![Visitors](https://komarev.com/ghpvc/?username=meet6949&color=00D9FF&style=flat-square) |
 <!-- SYSTEM_STATUS_END -->
 
 ---
 
 # 🛸 MISSION CONTROL
 
-<table>
+<table width="100%">
   <tr>
     <td align="center" width="25%">
-      🤖<br>
-      <b>Machine Learning</b><br>
-      Predictive Modeling
+      <img src="https://img.shields.io/badge/Machine_Learning-00D9FF?style=for-the-badge&logo=robot&logoColor=black"/><br>
+      <sub>Predictive Modeling</sub>
     </td>
     <td align="center" width="25%">
-      📊<br>
-      <b>Data Analytics</b><br>
-      Visual Storytelling
+      <img src="https://img.shields.io/badge/Data_Analytics-00D9FF?style=for-the-badge&logo=chart-bar&logoColor=black"/><br>
+      <sub>Visual Storytelling</sub>
     </td>
     <td align="center" width="25%">
-      ☁️<br>
-      <b>MLOps</b><br>
-      Scalable Architectures
+      <img src="https://img.shields.io/badge/MLOps-00D9FF?style=for-the-badge&logo=cloud&logoColor=black"/><br>
+      <sub>Scalable Architectures</sub>
     </td>
     <td align="center" width="25%">
-      🎯<br>
-      <b>Strategic Growth</b><br>
-      Business Impact
+      <img src="https://img.shields.io/badge/Strategy-00D9FF?style=for-the-badge&logo=target&logoColor=black"/><br>
+      <sub>Business Impact</sub>
     </td>
   </tr>
 </table>
 
 ---
 
+<!-- BEGIN MINESWEEPER BOARD -->
+### 💣 Community Minesweeper
+Can you clear the grid without hitting a mine?
+
+|   | 1 | 2 | 3 | 4 | 5 |
+|---|---|---|---|---|---|
+| **A** | 0️⃣ | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+A5) |
+| **B** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+B5) |
+| **C** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+C5) |
+| **D** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+D5) |
+| **E** | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E1) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E2) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E3) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E4) | [?](https://github.com/meet6949/meet6949/issues/new?title=Minesweeper:+Reveal+E5) |
+
+Click a `[?]` to reveal a tile!
+
+<!-- END MINESWEEPER BOARD -->
+
+---
+
 # 🛠️ CYBER TECH STACK
 
-### 🧬 Data Engineering & Intelligence
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-### 🔮 Visualization & Analytics
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+<table width="100%">
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <h4>🧬 Languages & Tools</h4>
+      <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+    </td>
+    <td width="34%" align="center" valign="top">
+      <h4>🧠 Data Engineering</h4>
+      <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <h4>🔮 Visualization & Analytics</h4>
+      <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/><br>
+      <img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/><br>
+      <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white"/>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 ---
-<!---
+
 # 🚀 FEATURED UNIVERSE
 
 <div align="center">
 
 <table width="100%">
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3 align="center">💳 UPI Payment Analysis</h3>
-      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/UPI%20Analysis/dashboard.png" width="100%">
+      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/UPI%20Analysis/dashboard.png" width="100%" style="border-radius: 10px;"/>
       <p align="left">Interactive dashboard analyzing transaction trends and market share of major UPI apps in India. Built with Power BI & DAX.</p>
       <div align="center">
         <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/UPI%20Analysis">
@@ -85,9 +112,9 @@
         </a>
       </div>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3 align="center">🛒 Retail Sales Insight</h3>
-      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/Retail%20Store%20Sales%20Analysis/Dashboard.png" width="100%">
+      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/Retail%20Store%20Sales%20Analysis/Dashboard.png" width="100%" style="border-radius: 10px;"/>
       <p align="left">End-to-end analysis of retail performance, customer churn, and product category contribution using SQL and Power BI.</p>
       <div align="center">
         <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/Retail%20Store%20Sales%20Analysis">
@@ -97,9 +124,9 @@
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
       <h3 align="center">💱 INR Currency Pulse</h3>
-      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/INR-Currency-Dashboard/currency_dashboard.png" width="100%">
+      <img src="https://raw.githubusercontent.com/meet6949/Data-Analytics-Portfolio/main/INR-Currency-Dashboard/currency_dashboard.png" width="100%" style="border-radius: 10px;"/>
       <p align="left">Real-time tracking and YoY growth analysis of INR against major global currencies like USD, EUR, and GBP.</p>
       <div align="center">
         <a href="https://github.com/meet6949/Data-Analytics-Portfolio/tree/main/INR-Currency-Dashboard">
@@ -107,7 +134,7 @@
         </a>
       </div>
     </td>
-    <td width="50%" align="center">
+    <td width="50%" align="center" valign="middle">
       <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="50%">
       <p>More projects arriving in deep space soon...</p>
     </td>
@@ -115,14 +142,14 @@
 </table>
 
 </div>
---->
+
 ---
 
-# THE GREEN VOID
+# 🌌 DIMENSIONAL CONTRIBUTIONS
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/meet6949/meet6949/output/profile-night-green.svg" width="100%">
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/output/profile-night-rainbow.svg" width="100%">
 
 </div>
 
@@ -132,11 +159,16 @@
 
 <div align="center">
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/>
-
-<br>
-
-<img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="85%"/>
+<table border="0">
+  <tr>
+    <td width="50%"><img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=meet6949&theme=tokyonight" width="100%"/></td>
+    <td width="50%"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=meet6949&layout=compact&theme=tokyonight&hide_border=true" width="100%"/></td>
+  </tr>
+  <tr>
+    <td width="50%"><img src="https://github-readme-stats.vercel.app/api?username=meet6949&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" width="100%"/></td>
+    <td width="50%"><img src="https://github-readme-streak-stats.herokuapp.com/?user=meet6949&theme=tokyonight&hide_border=true" width="100%"/></td>
+  </tr>
+</table>
 
 </div>
 
@@ -157,11 +189,11 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/meet-patel-3b3b64401/?skipRedirect=true">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-00D9FF?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="mailto:meet70849@gmail.com">
-<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gmail-00D9FF?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 <!---
