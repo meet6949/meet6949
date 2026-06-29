@@ -1,0 +1,76 @@
+ * Serving Flask app 'grip.app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:6419
+[33mPress CTRL+C to quit[0m
+ * Downloading style https://github.githubassets.com/assets/light-4fded0090af0ad58.css
+ * Downloading style https://github.githubassets.com/assets/light_high_contrast-cf8e26bc17e62ebc.css
+ * Downloading style https://github.githubassets.com/assets/dark-06381ff23d863842.css
+ * Downloading style https://github.githubassets.com/assets/dark_high_contrast-9023e6605402defb.css
+ * Downloading style https://github.githubassets.com/assets/light-4fded0090af0ad58.css
+ * Downloading style https://github.githubassets.com/assets/light_high_contrast-cf8e26bc17e62ebc.css
+ * Downloading style https://github.githubassets.com/assets/light_colorblind-3a437477a570cc40.css
+ * Downloading style https://github.githubassets.com/assets/light_colorblind_high_contrast-39b6c209db5491c9.css
+ * Downloading style https://github.githubassets.com/assets/light_tritanopia-3822234d6c03b00b.css
+ * Downloading style https://github.githubassets.com/assets/light_tritanopia_high_contrast-33857254a8064bf7.css
+ * Downloading style https://github.githubassets.com/assets/dark-06381ff23d863842.css
+ * Downloading style https://github.githubassets.com/assets/dark_high_contrast-9023e6605402defb.css
+ * Downloading style https://github.githubassets.com/assets/dark_colorblind-37023bf69d8e0e34.css
+ * Downloading style https://github.githubassets.com/assets/dark_colorblind_high_contrast-486bd43e01a2c0ec.css
+ * Downloading style https://github.githubassets.com/assets/dark_tritanopia-838ba2a5070c5b09.css
+ * Downloading style https://github.githubassets.com/assets/dark_tritanopia_high_contrast-2aa7245dc545d61f.css
+ * Downloading style https://github.githubassets.com/assets/dark_dimmed-29ef2eb185e7de1c.css
+ * Downloading style https://github.githubassets.com/assets/dark_dimmed_high_contrast-8eed6b212f10f1b9.css
+ * Downloading style https://github.githubassets.com/assets/primer-primitives-b39ad27f3538ace3.css
+ * Downloading style https://github.githubassets.com/assets/primer-70be7debc79a8eff.css
+ * Downloading style https://github.githubassets.com/assets/global-d18f184ea1a06a2c.css
+ * Downloading style https://github.githubassets.com/assets/github-eab9c5888b163e42.css
+ * Downloading style https://github.githubassets.com/assets/repository-5c3491d57145b94f.css
+ * Downloading style https://github.githubassets.com/assets/code-cffdf86ada0ff0ca.css
+ * Downloading style https://github.githubassets.com/assets/react-core.b94b9a549dd13585.module.css
+ * Downloading style https://github.githubassets.com/assets/primer-react-css.7372dee7532435da.module.css
+ * Downloading style https://github.githubassets.com/assets/14872.236fe58d0f3e0131.module.css
+ * Downloading style https://github.githubassets.com/assets/27883.6afe439f9f2286fc.module.css
+ * Downloading style https://github.githubassets.com/assets/code-view.2e6f4c9d9a10874e.module.css
+ * Downloading style https://github.githubassets.com/assets/primer-react-css.7372dee7532435da.module.css
+ * Downloading style https://github.githubassets.com/assets/notifications-subscriptions-menu.4b3757c0b57c564b.module.css
+ * Downloading style https://github.githubassets.com/assets/primer-react-css.7372dee7532435da.module.css
+ * Downloading style https://github.githubassets.com/assets/keyboard-shortcuts-dialog.c224b6b9df030c42.module.css
+ * Downloading style https://github.githubassets.com/assets/primer-react-css.7372dee7532435da.module.css
+ * Downloading style https://github.githubassets.com/assets/appearance-settings.f3b91559daeb1c9c.module.css
+ * Downloading style https://github.githubassets.com/assets/primer-react-css.7372dee7532435da.module.css
+ * Downloading style https://github.githubassets.com/assets/marketing-navigation.73c75b5e8ccc10b3.module.css
+ * Downloading style https://github.githubassets.com/assets/primer-react-css.7372dee7532435da.module.css
+ * Downloading style https://github.githubassets.com/assets/appearance-settings.f3b91559daeb1c9c.module.css
+ * Cached all downloads in /home/jules/.grip/cache-4.6.2
+127.0.0.1 - - [29/Jun/2026 21:06:05] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:05] "GET /__/grip/asset/primer-primitives-b39ad27f3538ace3.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:05] "GET /__/grip/asset/marketing-navigation.73c75b5e8ccc10b3.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_colorblind_high_contrast-486bd43e01a2c0ec.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/global-d18f184ea1a06a2c.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_tritanopia-838ba2a5070c5b09.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/27883.6afe439f9f2286fc.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_tritanopia_high_contrast-2aa7245dc545d61f.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_dimmed-29ef2eb185e7de1c.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/appearance-settings.f3b91559daeb1c9c.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/light_high_contrast-cf8e26bc17e62ebc.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark-06381ff23d863842.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/repository-5c3491d57145b94f.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/react-core.b94b9a549dd13585.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_high_contrast-9023e6605402defb.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/light_tritanopia_high_contrast-33857254a8064bf7.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/light_tritanopia-3822234d6c03b00b.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/light_colorblind-3a437477a570cc40.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/primer-70be7debc79a8eff.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/primer-react-css.7372dee7532435da.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_dimmed_high_contrast-8eed6b212f10f1b9.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/dark_colorblind-37023bf69d8e0e34.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/14872.236fe58d0f3e0131.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/keyboard-shortcuts-dialog.c224b6b9df030c42.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/light_colorblind_high_contrast-39b6c209db5491c9.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/code-cffdf86ada0ff0ca.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/github-eab9c5888b163e42.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/notifications-subscriptions-menu.4b3757c0b57c564b.module.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/static/octicons/octicons.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/light-4fded0090af0ad58.css HTTP/1.1" 200 -
+127.0.0.1 - - [29/Jun/2026 21:06:06] "GET /__/grip/asset/code-view.2e6f4c9d9a10874e.module.css HTTP/1.1" 200 -
