@@ -35,7 +35,7 @@
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=meet6949&bg_color=0a0808&color=f87171&line=dc2626&point=ef4444&hide_border=true&area=true&area_color=450a0a&custom_title=Contribution%20Graph" alt="Contribution graph" width="95%"/>
 <br/><br/>
  
-### 👻 Pac-Man eats my contributions
+### 🐍 Snake eats my GitHub contributions
  
 <img src="https://raw.githubusercontent.com/meet6949/meet6949/output/pacman-contribution-graph.svg" alt="Pac-Man contribution graph"/>
 <br/><br/>
