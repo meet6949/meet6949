@@ -1,0 +1,36 @@
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e1a"/>
+      <stop offset="100%" stop-color="#0d1c33"/>
+    </linearGradient>
+    <linearGradient id="txtGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="220" fill="url(#bg)"/>
+
+  <g opacity="0.5" stroke="#1e3a5f">
+    <line x1="0" y1="55" x2="900" y2="55"/>
+    <line x1="0" y1="165" x2="900" y2="165"/>
+  </g>
+
+  <g fill="#1e3a5f" opacity="0.6">
+    <circle cx="60" cy="30" r="2"/><circle cx="120" cy="190" r="2"/>
+    <circle cx="820" cy="40" r="2"/><circle cx="860" cy="180" r="2"/>
+    <circle cx="760" cy="30" r="2"/><circle cx="40" cy="180" r="2"/>
+  </g>
+
+  <text x="450" y="105" text-anchor="middle" font-family="'Segoe UI',sans-serif" font-size="48" font-weight="800" fill="url(#txtGrad)">
+    Meet Gajera
+    <animate attributeName="opacity" values="0;1" dur="0.8s" fill="freeze"/>
+  </text>
+  <text x="450" y="145" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="17" letter-spacing="2" fill="#8ea3c7">
+    DATA SCIENCE &amp; AI/ML · RAJKOT, INDIA
+  </text>
+
+  <g transform="translate(450,180)" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="12" fill="#3d4f70">
+    <text>turning data into decisions, one model at a time</text>
+  </g>
+</svg>
