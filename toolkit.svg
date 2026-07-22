@@ -1,0 +1,37 @@
+<svg viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#f87171"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="418" height="188" rx="14" fill="#0a0808" stroke="#3f1d1d"/>
+  <text x="24" y="34" font-family="'Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#ef4444">Core Toolkit</text>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="12.5" fill="#e5d4d4">
+    <text x="24" y="62">Python</text>
+    <rect x="150" y="52" width="246" height="8" rx="4" fill="#2e1515"/>
+    <rect x="150" y="52" height="8" rx="4" fill="url(#barGrad)" width="0">
+      <animate attributeName="width" values="0;226" dur="1.4s" begin="0.1s" fill="freeze"/>
+    </rect>
+
+    <text x="24" y="90">SQL / Power BI / DAX</text>
+    <rect x="150" y="80" width="246" height="8" rx="4" fill="#2e1515"/>
+    <rect x="150" y="80" height="8" rx="4" fill="url(#barGrad)" width="0">
+      <animate attributeName="width" values="0;206" dur="1.4s" begin="0.25s" fill="freeze"/>
+    </rect>
+
+    <text x="24" y="118">scikit-learn</text>
+    <rect x="150" y="108" width="246" height="8" rx="4" fill="#2e1515"/>
+    <rect x="150" y="108" height="8" rx="4" fill="url(#barGrad)" width="0">
+      <animate attributeName="width" values="0;196" dur="1.4s" begin="0.4s" fill="freeze"/>
+    </rect>
+
+    <text x="24" y="146">Pandas / NumPy</text>
+    <rect x="150" y="136" width="246" height="8" rx="4" fill="#2e1515"/>
+    <rect x="150" y="136" height="8" rx="4" fill="url(#barGrad)" width="0">
+      <animate attributeName="width" values="0;216" dur="1.4s" begin="0.55s" fill="freeze"/>
+    </rect>
+  </g>
+  <text x="24" y="174" font-family="'JetBrains Mono',monospace" font-size="10.5" fill="#5a3a3a">Jupyter Notebook · Excel · Git</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 420 190" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#301616"/>
+      <stop offset="100%" stop-color="#170c0c"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="418" height="188" rx="14" fill="#0a0808" stroke="#3f1d1d"/>
+  <text x="24" y="34" font-family="'Segoe UI',sans-serif" font-size="17" font-weight="700" fill="#ef4444">Snapshot</text>
+
+  <g font-family="'JetBrains Mono',monospace" font-size="12">
+    <g transform="translate(24,52)" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.1s" dur="0.6s" fill="freeze"/>
+      <rect width="372" height="34" rx="8" fill="url(#chipGrad)" stroke="#3f1d1d"/>
+      <text x="14" y="22" fill="#f87171">📊</text>
+      <text x="38" y="22" fill="#e5d4d4">Learning Data Science &amp; AI/ML, day by day</text>
+    </g>
+    <g transform="translate(24,92)" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.3s" dur="0.6s" fill="freeze"/>
+      <rect width="372" height="34" rx="8" fill="url(#chipGrad)" stroke="#3f1d1d"/>
+      <text x="14" y="22" fill="#f87171">🎓</text>
+      <text x="38" y="22" fill="#e5d4d4">Based in Rajkot, Gujarat</text>
+    </g>
+    <g transform="translate(24,132)" opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="0.5s" dur="0.6s" fill="freeze"/>
+      <rect width="372" height="34" rx="8" fill="url(#chipGrad)" stroke="#3f1d1d"/>
+      <text x="14" y="22" fill="#f87171">🤖</text>
+      <text x="38" y="22" fill="#e5d4d4">Building projects while I learn</text>
+    </g>
+  </g>
+</svg>
