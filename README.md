@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
   <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
@@ -51,4 +51,73 @@
  
 *⭐️ Data Science · AI/ML — always learning, always building.* 💠
  
+</div> -->
+
+
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./banner.svg?v=3">
+  <source media="(prefers-color-scheme: light)" srcset="./banner-light.svg?v=3">
+  <img src="./banner.svg?v=3" alt="Meet Gajera — AI/ML & Data Science" width="100%"/>
+</picture>
+</div>
+<br/>
+
+<div align="center">
+<img src="./lanyard.svg?v=5" alt="Meet Gajera ID badge" width="280"/>
+</div>
+<br/>
+
+<div align="center">
+<img src="./projects.svg?v=1" alt="Meet Gajera — Featured Projects" width="100%"/>
+</div>
+<br/>
+
+### 📁 Featured Projects
+
+| Project | Focus | Tools |
+|:---|:---|:---:|
+| 🧮 [Calculative Foundation](https://github.com/meet6949/REPLACE-WITH-REPO-NAME) | Linear algebra for data science — vectors, eigenvalues, SVD, PCA & LDA applied to student score data | `Python` `NumPy` `Jupyter` |
+| 🧹 [Data Preprocessing Toolkit](https://github.com/meet6949/REPLACE-WITH-REPO-NAME) | Six imputation techniques & four outlier-handling methods on an e-commerce dataset | `Pandas` `scikit-learn` |
+| 🏋️ [FORGE](https://github.com/meet6949/REPLACE-WITH-REPO-NAME) | Luxury 3D gym landing page with Three.js animations & a matching sign-in flow | `Three.js` `JavaScript` |
+| ☕ [Hot & Crusty Cafe & Bakery](https://github.com/meet6949/REPLACE-WITH-REPO-NAME) | Real client website — menu modals, food photography, Google Maps embed | `HTML` `CSS` `JS` |
+
+<br/>
+
+### 🛰️ Neural Scanner — it never stops running
+
+<img src="https://raw.githubusercontent.com/meet6949/meet6949/output/scanner.svg" alt="Neural scanner contribution graph" width="95%"/>
+
+<br/>
+
+> 💠 *"Learning one dataset at a time."*
+
+<br/>
+
+<div align="center">
+
+### 📈 GitHub Stats & Activity
+
+<img src="./toolkit.svg?v=1" alt="Core Toolkit" height="190"/>
+<img src="./milestones.svg?v=1" alt="Snapshot" height="190"/>
+<br/><br/>
+
+<img src="https://streak-stats.demolab.com?user=meet6949&theme=tokyonight&hide_border=true&background=0a0808&ring=dc2626&fire=ef4444&currStreakLabel=f87171" alt="GitHub Streak"/>
+<br/><br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=meet6949&bg_color=0a0808&color=f87171&line=dc2626&point=ef4444&hide_border=true&area=true&area_color=450a0a&custom_title=Contribution%20Graph" alt="Contribution graph" width="95%"/>
+<br/><br/>
+
+### 📫 Let's Connect
+
+<a href="https://github.com/meet6949"><img src="https://img.shields.io/badge/GitHub-dc2626?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=meet6949&color=dc2626&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile views"/>
+<br/><br/>
+
+*⭐️ Data Science · AI/ML — always learning, always building.* 💠
+
 </div>
