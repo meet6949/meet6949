@@ -1,0 +1,42 @@
+name: Generate neural scanner
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate scanner.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: meet6949
+        run: python scripts/generate_scanner.py "$GH_USERNAME"
+
+      - name: Push to output branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan output
+          git rm -rf . > /dev/null 2>&1 || true
+          git checkout main -- scanner.svg 2>/dev/null || true
+          cp scanner.svg /tmp/scanner.svg
+          git reset --hard
+          git checkout --orphan output
+          rm -rf ./*
+          cp /tmp/scanner.svg scanner.svg
+          git add scanner.svg
+          git commit -m "Update neural scanner"
+          git push -f origin output
